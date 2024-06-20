@@ -1,0 +1,3338 @@
+﻿[
+    {
+        "sentence": "The ambience was so fun, and the prices were great, on top of the fact that the food was really tasty.",
+        "quads": [
+            [
+                "ambience",
+                "fun",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "NULL",
+                "great",
+                "restaurant prices",
+                "positive"
+            ],
+            [
+                "food",
+                "tasty",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 0
+    },
+    {
+        "sentence": "Eating in, the atmosphere saves it, but at your desk, it 's a very disappointing experience.",
+        "quads": [
+            [
+                "atmosphere",
+                "saves",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "NULL",
+                "disappointing",
+                "restaurant general",
+                "negative"
+            ]
+        ],
+        "ID": 1
+    },
+    {
+        "sentence": "keep up the good work.",
+        "quads": [
+            [
+                "NULL",
+                "good",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 2
+    },
+    {
+        "sentence": "The fish was adequate, but inexpertly sliced.",
+        "quads": [
+            [
+                "fish",
+                "adequate",
+                "food style_options",
+                "negative"
+            ],
+            [
+                "fish",
+                "inexpertly sliced",
+                "food style_options",
+                "negative"
+            ]
+        ],
+        "ID": 3
+    },
+    {
+        "sentence": "Try sushimi cucumber roll.",
+        "quads": [
+            [
+                "sushimi cucumber roll",
+                "Try",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 4
+    },
+    {
+        "sentence": "The sushi seemed pretty fresh and was adequately proportioned.",
+        "quads": [
+            [
+                "sushi",
+                "fresh",
+                "food quality",
+                "positive"
+            ],
+            [
+                "sushi",
+                "proportioned",
+                "food style_options",
+                "positive"
+            ]
+        ],
+        "ID": 5
+    },
+    {
+        "sentence": "The food is very average... the Thai fusion stuff is a bit too sweet, every thing they serve is too sweet here.",
+        "quads": [
+            [
+                "food",
+                "average",
+                "food quality",
+                "negative"
+            ],
+            [
+                "Thai fusion stuff",
+                "too sweet",
+                "food quality",
+                "negative"
+            ],
+            [
+                "NULL",
+                "too sweet",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 6
+    },
+    {
+        "sentence": "Terrible, terrible management - deserves to be shut-down.",
+        "quads": [
+            [
+                "management",
+                "Terrible",
+                "service general",
+                "negative"
+            ],
+            [
+                "management",
+                "terrible",
+                "service general",
+                "negative"
+            ],
+            [
+                "NULL",
+                "deserves to be shut-down",
+                "restaurant general",
+                "negative"
+            ]
+        ],
+        "ID": 7
+    },
+    {
+        "sentence": "I am relatively new to the area and tried Pick a bgel on 2nd and was disappointed with the service and I thought the food was overated and on the pricey side.",
+        "quads": [
+            [
+                "service",
+                "disappointed",
+                "service general",
+                "negative"
+            ],
+            [
+                "food",
+                "pricey",
+                "food prices",
+                "negative"
+            ],
+            [
+                "food",
+                "overated",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 8
+    },
+    {
+        "sentence": "The quantity is also very good, you will come out satisfied.",
+        "quads": [
+            [
+                "quantity",
+                "good",
+                "food style_options",
+                "positive"
+            ],
+            [
+                "quantity",
+                "satisfied",
+                "food style_options",
+                "positive"
+            ]
+        ],
+        "ID": 9
+    },
+    {
+        "sentence": "Not enough wines by the glass either.",
+        "quads": [
+            [
+                "wines by the glass",
+                "Not enough",
+                "drinks style_options",
+                "negative"
+            ]
+        ],
+        "ID": 10
+    },
+    {
+        "sentence": "but when we looked at the menu, there weren 't a lot of choices, most of them were dumplings in the appetizer section.",
+        "quads": [
+            [
+                "menu",
+                "weren 't a lot of choices",
+                "food style_options",
+                "negative"
+            ]
+        ],
+        "ID": 11
+    },
+    {
+        "sentence": "The kitchen however, is almost always slow.",
+        "quads": [
+            [
+                "kitchen",
+                "slow",
+                "service general",
+                "negative"
+            ]
+        ],
+        "ID": 12
+    },
+    {
+        "sentence": "Awsome Pizza especially the Margheritta slice.",
+        "quads": [
+            [
+                "Pizza",
+                "Awsome",
+                "food quality",
+                "positive"
+            ],
+            [
+                "Margheritta slice",
+                "Awsome",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 13
+    },
+    {
+        "sentence": "The food however, is what one might expect.",
+        "quads": [
+            [
+                "food",
+                "expect",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 14
+    },
+    {
+        "sentence": "I would say that all was fine and tasty but the heaviness on my stomach someting that i can't not mention or undermine.",
+        "quads": [
+            [
+                "NULL",
+                "the heaviness on my stomach someting that i can't not mention or undermine",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 15
+    },
+    {
+        "sentence": "It 's simply the best meal in NYC.",
+        "quads": [
+            [
+                "meal",
+                "best",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 16
+    },
+    {
+        "sentence": "From the spectacular caviar to the hospitable waitstaff, I felt like royalty and enjoyed every second of it.",
+        "quads": [
+            [
+                "caviar",
+                "spectacular",
+                "food quality",
+                "positive"
+            ],
+            [
+                "caviar",
+                "enjoyed",
+                "food quality",
+                "positive"
+            ],
+            [
+                "waitstaff",
+                "hospitable",
+                "service general",
+                "positive"
+            ],
+            [
+                "waitstaff",
+                "enjoyed",
+                "service general",
+                "positive"
+            ]
+        ],
+        "ID": 17
+    },
+    {
+        "sentence": "The entree was bland and small, dessert was not inspired.",
+        "quads": [
+            [
+                "entree",
+                "bland",
+                "food quality",
+                "negative"
+            ],
+            [
+                "entree",
+                "small",
+                "food style_options",
+                "negative"
+            ],
+            [
+                "dessert",
+                "not inspired",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 18
+    },
+    {
+        "sentence": "The spicy tuna roll was unusually good and the rock shrimp tempura was awesome, great appetizer to share!",
+        "quads": [
+            [
+                "spicy tuna roll",
+                "good",
+                "food quality",
+                "positive"
+            ],
+            [
+                "rock shrimp tempura",
+                "awesome",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 19
+    },
+    {
+        "sentence": "The decor in this place is very diner-ish and the kind of place you expect in the East Village - not romantic, just simple, small and sparse.",
+        "quads": [
+            [
+                "decor",
+                "diner-ish",
+                "ambience general",
+                "neutral"
+            ]
+        ],
+        "ID": 20
+    },
+    {
+        "sentence": "The pizza is delicious and the proprietor is one of the nicest in NYC.",
+        "quads": [
+            [
+                "pizza",
+                "delicious",
+                "food quality",
+                "positive"
+            ],
+            [
+                "proprietor",
+                "nicest",
+                "service general",
+                "positive"
+            ]
+        ],
+        "ID": 21
+    },
+    {
+        "sentence": "The place is small and intimate and you may feel a little crowded, but the service is excellent and it 's great for friends out, a romantic date, or a special occassion.",
+        "quads": [
+            [
+                "service",
+                "excellent",
+                "service general",
+                "positive"
+            ],
+            [
+                "place",
+                "crowded",
+                "ambience general",
+                "negative"
+            ],
+            [
+                "place",
+                "small",
+                "restaurant miscellaneous",
+                "positive"
+            ],
+            [
+                "place",
+                "intimate",
+                "restaurant miscellaneous",
+                "positive"
+            ]
+        ],
+        "ID": 22
+    },
+    {
+        "sentence": "I have been coming here for years and have nothing but good things to say about the service and the great staff at La Lanterna.",
+        "quads": [
+            [
+                "service",
+                "good",
+                "service general",
+                "positive"
+            ],
+            [
+                "staff",
+                "great",
+                "service general",
+                "positive"
+            ]
+        ],
+        "ID": 23
+    },
+    {
+        "sentence": "The signs, the specials menus, food, and even all the waitstaff are ALL TOTALLY Japanese.",
+        "quads": [
+            [
+                "signs",
+                "Japanese",
+                "restaurant miscellaneous",
+                "positive"
+            ],
+            [
+                "specials menus",
+                "Japanese",
+                "food style_options",
+                "positive"
+            ],
+            [
+                "food",
+                "Japanese",
+                "food quality",
+                "positive"
+            ],
+            [
+                "waitstaff",
+                "Japanese",
+                "service general",
+                "positive"
+            ]
+        ],
+        "ID": 24
+    },
+    {
+        "sentence": "The wine list is excellent.",
+        "quads": [
+            [
+                "wine list",
+                "excellent",
+                "drinks style_options",
+                "positive"
+            ]
+        ],
+        "ID": 25
+    },
+    {
+        "sentence": "The setting is casual and romantic.",
+        "quads": [
+            [
+                "setting",
+                "casual",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "setting",
+                "romantic",
+                "ambience general",
+                "positive"
+            ]
+        ],
+        "ID": 26
+    },
+    {
+        "sentence": "Nice value.",
+        "quads": [
+            [
+                "NULL",
+                "Nice value",
+                "restaurant prices",
+                "positive"
+            ]
+        ],
+        "ID": 27
+    },
+    {
+        "sentence": "It just wasn't Thai.",
+        "quads": [
+            [
+                "NULL",
+                "wasn't Thai",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 28
+    },
+    {
+        "sentence": "Average to good Thai food, but terrible delivery.",
+        "quads": [
+            [
+                "Thai food",
+                "Average to good",
+                "food quality",
+                "positive"
+            ],
+            [
+                "delivery",
+                "terrible",
+                "service general",
+                "negative"
+            ]
+        ],
+        "ID": 29
+    },
+    {
+        "sentence": "Zero ambiance to boot.",
+        "quads": [
+            [
+                "ambiance",
+                "Zero",
+                "ambience general",
+                "negative"
+            ]
+        ],
+        "ID": 30
+    },
+    {
+        "sentence": "A restaurant that doesn't try to do anything except serve great food with great service in a pleasant atmosphere.",
+        "quads": [
+            [
+                "food",
+                "great",
+                "food quality",
+                "positive"
+            ],
+            [
+                "service",
+                "great",
+                "service general",
+                "positive"
+            ],
+            [
+                "atmosphere",
+                "pleasant",
+                "ambience general",
+                "positive"
+            ]
+        ],
+        "ID": 31
+    },
+    {
+        "sentence": "The atmosphere is unheralded, the service impecible, and the food magnificant.",
+        "quads": [
+            [
+                "atmosphere",
+                "unheralded",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "service",
+                "impecible",
+                "service general",
+                "positive"
+            ],
+            [
+                "food",
+                "magnificant",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 32
+    },
+    {
+        "sentence": "The fish was really, really fresh.",
+        "quads": [
+            [
+                "fish",
+                "fresh",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 33
+    },
+    {
+        "sentence": "The owner truly caters to all your needs.",
+        "quads": [
+            [
+                "owner",
+                "caters to all your needs",
+                "service general",
+                "positive"
+            ]
+        ],
+        "ID": 34
+    },
+    {
+        "sentence": "I had never had Edamame pureed before but I thought it was innovative and tasty ( could 've used a bit more salt ).",
+        "quads": [
+            [
+                "Edamame pureed",
+                "tasty",
+                "food quality",
+                "positive"
+            ],
+            [
+                "Edamame pureed",
+                "innovative",
+                "food style_options",
+                "positive"
+            ]
+        ],
+        "ID": 35
+    },
+    {
+        "sentence": "I will be going back very soon.",
+        "quads": [
+            [
+                "NULL",
+                "going back",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 36
+    },
+    {
+        "sentence": "Guacamole+shrimp appetizer was really great, we both had the filet, very good, didn't much like the frites that came with, but the filet was so good, neither of us cared.",
+        "quads": [
+            [
+                "Guacamole+shrimp appetizer",
+                "great",
+                "food quality",
+                "positive"
+            ],
+            [
+                "filet",
+                "good",
+                "food quality",
+                "positive"
+            ],
+            [
+                "frites",
+                "didn't much like",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 37
+    },
+    {
+        "sentence": "The food is decent at best, and the ambience, well, it 's a matter of opinion, some may consider it to be a sweet thing, I thought it was just annoying.",
+        "quads": [
+            [
+                "food",
+                "decent",
+                "food quality",
+                "negative"
+            ],
+            [
+                "ambience",
+                "annoying",
+                "ambience general",
+                "negative"
+            ]
+        ],
+        "ID": 38
+    },
+    {
+        "sentence": "Save yourself the time and trouble and skip this one!",
+        "quads": [
+            [
+                "NULL",
+                "skip",
+                "restaurant general",
+                "negative"
+            ]
+        ],
+        "ID": 39
+    },
+    {
+        "sentence": "Luckily we saved room for the BBQ Salmon, Sea Bass and Crispy Duck.",
+        "quads": [
+            [
+                "BBQ Salmon",
+                "Luckily",
+                "food quality",
+                "positive"
+            ],
+            [
+                "Sea Bass",
+                "Luckily",
+                "food quality",
+                "positive"
+            ],
+            [
+                "Crispy Duck",
+                "Luckily",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 40
+    },
+    {
+        "sentence": "The food looked very appetizing and delicious since it came on a variety of fancy plates.",
+        "quads": [
+            [
+                "food",
+                "appetizing",
+                "food style_options",
+                "positive"
+            ],
+            [
+                "food",
+                "delicious",
+                "food style_options",
+                "positive"
+            ]
+        ],
+        "ID": 41
+    },
+    {
+        "sentence": "This is a nice pizza place with good selection of thin crust pizza including the Basil slice.",
+        "quads": [
+            [
+                "selection of thin crust pizza",
+                "good",
+                "food style_options",
+                "positive"
+            ],
+            [
+                "selection of thin crust pizza",
+                "good",
+                "food quality",
+                "positive"
+            ],
+            [
+                "pizza place",
+                "nice",
+                "restaurant general",
+                "positive"
+            ],
+            [
+                "Basil slice",
+                "good",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 42
+    },
+    {
+        "sentence": "Prices are in line.",
+        "quads": [
+            [
+                "NULL",
+                "in line",
+                "restaurant prices",
+                "neutral"
+            ]
+        ],
+        "ID": 43
+    },
+    {
+        "sentence": "Everything we had was good or ok... but definitely nothing great.",
+        "quads": [
+            [
+                "NULL",
+                "nothing great",
+                "food quality",
+                "neutral"
+            ]
+        ],
+        "ID": 44
+    },
+    {
+        "sentence": "It is a lot of fun with live entertainment and all kinds of Disney type special effects.",
+        "quads": [
+            [
+                "NULL",
+                "fun",
+                "ambience general",
+                "positive"
+            ]
+        ],
+        "ID": 45
+    },
+    {
+        "sentence": "The staff was accomodating, the food was absolutely delicious and the place is lovely.",
+        "quads": [
+            [
+                "staff",
+                "accomodating",
+                "service general",
+                "positive"
+            ],
+            [
+                "food",
+                "delicious",
+                "food quality",
+                "positive"
+            ],
+            [
+                "place",
+                "lovely",
+                "ambience general",
+                "positive"
+            ]
+        ],
+        "ID": 46
+    },
+    {
+        "sentence": "Fish is so very fresh.",
+        "quads": [
+            [
+                "Fish",
+                "fresh",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 47
+    },
+    {
+        "sentence": "We will be back.",
+        "quads": [
+            [
+                "NULL",
+                "be back",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 48
+    },
+    {
+        "sentence": "All the people that I bring there go back on their own and bring THEIR friends!",
+        "quads": [
+            [
+                "NULL",
+                "go back",
+                "restaurant miscellaneous",
+                "positive"
+            ]
+        ],
+        "ID": 49
+    },
+    {
+        "sentence": "This tiny Williamsburg spot is always pleasantly surprising.",
+        "quads": [
+            [
+                "Williamsburg spot",
+                "surprising",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 50
+    },
+    {
+        "sentence": "Quite frankly, this is some of the worst sushi I have ever tried.",
+        "quads": [
+            [
+                "sushi",
+                "worst",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 51
+    },
+    {
+        "sentence": "Service is fast and friendly.",
+        "quads": [
+            [
+                "Service",
+                "fast",
+                "service general",
+                "positive"
+            ],
+            [
+                "Service",
+                "friendly",
+                "service general",
+                "positive"
+            ]
+        ],
+        "ID": 52
+    },
+    {
+        "sentence": "The portions are HUGE, so it might be good to order three things to split ( rather than one appetizer and entree per person ) for two people.",
+        "quads": [
+            [
+                "portions",
+                "HUGE",
+                "food style_options",
+                "neutral"
+            ]
+        ],
+        "ID": 53
+    },
+    {
+        "sentence": "Thank You Emilio.",
+        "quads": [
+            [
+                "Emilio",
+                "Thank You",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 54
+    },
+    {
+        "sentence": "The pasta penne was pretty extra buttery, creamy which means a big task to diggest.. tasty at first but i would say that i was full with a slice of pizza and 7 to count, penne... got a little moody afterwards cause was stuffed... lol",
+        "quads": [
+            [
+                "pasta penne",
+                "extra buttery",
+                "food quality",
+                "negative"
+            ],
+            [
+                "pasta penne",
+                "moody",
+                "food style_options",
+                "negative"
+            ]
+        ],
+        "ID": 55
+    },
+    {
+        "sentence": "The place is a BISTRO which means : simple dishes and wine served efficiently in a bustling atmosphere.",
+        "quads": [
+            [
+                "dishes",
+                "simple",
+                "food style_options",
+                "positive"
+            ],
+            [
+                "NULL",
+                "served efficiently",
+                "service general",
+                "positive"
+            ],
+            [
+                "atmosphere",
+                "bustling",
+                "ambience general",
+                "positive"
+            ]
+        ],
+        "ID": 56
+    },
+    {
+        "sentence": "I have known about this secret for the last 13 years, Emilio ( the Godfather ) has continued to serve food and wine for the gods at mortal prices.",
+        "quads": [
+            [
+                "food",
+                "gods",
+                "food quality",
+                "positive"
+            ],
+            [
+                "wine",
+                "gods",
+                "drinks quality",
+                "positive"
+            ],
+            [
+                "food",
+                "mortal",
+                "food prices",
+                "positive"
+            ],
+            [
+                "wine",
+                "mortal",
+                "drinks prices",
+                "positive"
+            ]
+        ],
+        "ID": 57
+    },
+    {
+        "sentence": "bottles of wine are cheap and good.",
+        "quads": [
+            [
+                "bottles of wine",
+                "cheap",
+                "drinks prices",
+                "positive"
+            ],
+            [
+                "bottles of wine",
+                "good",
+                "drinks quality",
+                "positive"
+            ]
+        ],
+        "ID": 58
+    },
+    {
+        "sentence": "Our family never expected such incredible entertainment in a restaurant.",
+        "quads": [
+            [
+                "entertainment",
+                "incredible",
+                "ambience general",
+                "positive"
+            ]
+        ],
+        "ID": 59
+    },
+    {
+        "sentence": "I almost hesititate to write a review because the atmosphere was so great and I would hate for it too become to crowded.",
+        "quads": [
+            [
+                "atmosphere",
+                "great",
+                "ambience general",
+                "positive"
+            ]
+        ],
+        "ID": 60
+    },
+    {
+        "sentence": "The place is so cool and the service is prompt and curtious.",
+        "quads": [
+            [
+                "service",
+                "prompt",
+                "service general",
+                "positive"
+            ],
+            [
+                "service",
+                "curtious",
+                "service general",
+                "positive"
+            ],
+            [
+                "place",
+                "cool",
+                "ambience general",
+                "positive"
+            ]
+        ],
+        "ID": 61
+    },
+    {
+        "sentence": "I would highly recommend this place!",
+        "quads": [
+            [
+                "place",
+                "recommend",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 62
+    },
+    {
+        "sentence": "Faan is sooo good.",
+        "quads": [
+            [
+                "Faan",
+                "good",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 63
+    },
+    {
+        "sentence": "The ambience was nice, but service wasn't so great.",
+        "quads": [
+            [
+                "ambience",
+                "nice",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "service",
+                "wasn't so great",
+                "service general",
+                "negative"
+            ]
+        ],
+        "ID": 64
+    },
+    {
+        "sentence": "Definitely a neighborhood favorite.",
+        "quads": [
+            [
+                "NULL",
+                "favorite",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 65
+    },
+    {
+        "sentence": "Make sure you try this place as often as you can.",
+        "quads": [
+            [
+                "place",
+                "try",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 66
+    },
+    {
+        "sentence": "If you are the type of person who likes being scared and entertained, this is a great place to go and eat.",
+        "quads": [
+            [
+                "place",
+                "great",
+                "restaurant miscellaneous",
+                "positive"
+            ]
+        ],
+        "ID": 67
+    },
+    {
+        "sentence": "I have reservations about the all you can eat deal, however -- the choices are fairly limited and you can probably order more food than you can eat for less than $ 18 by just going off the menu.",
+        "quads": [
+            [
+                "all you can eat deal",
+                "limited",
+                "food style_options",
+                "negative"
+            ],
+            [
+                "all you can eat deal",
+                "limited",
+                "food prices",
+                "negative"
+            ]
+        ],
+        "ID": 68
+    },
+    {
+        "sentence": "The svc can be a bit rude at times, esp if you have big group, but overall the restaurant is a must!",
+        "quads": [
+            [
+                "svc",
+                "rude",
+                "service general",
+                "negative"
+            ],
+            [
+                "restaurant",
+                "must",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 69
+    },
+    {
+        "sentence": "I have eaten at Saul, many times, the food is always consistently, outrageously good.",
+        "quads": [
+            [
+                "food",
+                "good",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 70
+    },
+    {
+        "sentence": "I fell in love with the egg noodles in the beef broth with shrimp dumplings and slices of BBQ roast pork.",
+        "quads": [
+            [
+                "egg noodles in the beef broth with shrimp dumplings and slices of BBQ roast pork",
+                "love",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 71
+    },
+    {
+        "sentence": "LLOOVVE THIS PLACE.",
+        "quads": [
+            [
+                "PLACE",
+                "LLOOVVE",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 72
+    },
+    {
+        "sentence": "This place is incredibly tiny.",
+        "quads": [
+            [
+                "place",
+                "tiny",
+                "ambience general",
+                "negative"
+            ]
+        ],
+        "ID": 73
+    },
+    {
+        "sentence": "Problem is nothing at Prune is particularly memorable.",
+        "quads": [
+            [
+                "Prune",
+                "memorable",
+                "restaurant general",
+                "negative"
+            ]
+        ],
+        "ID": 74
+    },
+    {
+        "sentence": "delicious bagels, especially when right out of the oven.",
+        "quads": [
+            [
+                "bagels",
+                "delicious",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 75
+    },
+    {
+        "sentence": "This restaurant was way overhyped.",
+        "quads": [
+            [
+                "restaurant",
+                "overhyped",
+                "restaurant general",
+                "negative"
+            ]
+        ],
+        "ID": 76
+    },
+    {
+        "sentence": "A gentleman, maybe the manager, came to our table, and without so much as a smile or greeting asked for our order.",
+        "quads": [
+            [
+                "gentleman",
+                "without so much as a smile or greeting",
+                "service general",
+                "negative"
+            ]
+        ],
+        "ID": 77
+    },
+    {
+        "sentence": "The food is great.",
+        "quads": [
+            [
+                "food",
+                "great",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 78
+    },
+    {
+        "sentence": "Fabulous decor - makes you feel like you 're in a trendy Manhattan restaurant, very very good food, cheaply-priced, generally friendly staff, and if you 're a Manhattanite, or spend most of your time in Manhattan, Rice Avenue will make you feel at home.....very Soho /Village /Upper West Side minus the expensive prices and pretentious clientele.....all on Roosevelt Avenue!",
+        "quads": [
+            [
+                "decor",
+                "Fabulous",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "food",
+                "good",
+                "food quality",
+                "positive"
+            ],
+            [
+                "food",
+                "cheaply-priced",
+                "food prices",
+                "positive"
+            ],
+            [
+                "staff",
+                "friendly",
+                "service general",
+                "positive"
+            ],
+            [
+                "Rice Avenue",
+                "feel at home",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "Rice Avenue",
+                "very Soho /Village /Upper West Side",
+                "location general",
+                "positive"
+            ],
+            [
+                "Rice Avenue",
+                "minus the expensive prices",
+                "restaurant prices",
+                "positive"
+            ]
+        ],
+        "ID": 79
+    },
+    {
+        "sentence": "The food is a diamond in rough -- the food is delicious and homemade with the perfect balance of herbs and tomatoes.",
+        "quads": [
+            [
+                "food",
+                "diamond",
+                "food quality",
+                "positive"
+            ],
+            [
+                "balance of herbs and tomatoes",
+                "perfect",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 80
+    },
+    {
+        "sentence": "The buffet had a nice selection.",
+        "quads": [
+            [
+                "buffet",
+                "nice",
+                "food style_options",
+                "positive"
+            ]
+        ],
+        "ID": 81
+    },
+    {
+        "sentence": "One would think we 'd get an apology or complimentary drinks - instead, we got a snobby waiter wouldn't even take our order for 15 minutes and gave us lip when we asked him to do so.",
+        "quads": [
+            [
+                "waiter",
+                "snobby",
+                "service general",
+                "negative"
+            ]
+        ],
+        "ID": 82
+    },
+    {
+        "sentence": "The food is tasty and portion sizes are appropriate.",
+        "quads": [
+            [
+                "food",
+                "tasty",
+                "food quality",
+                "positive"
+            ],
+            [
+                "portion sizes",
+                "appropriate",
+                "food style_options",
+                "positive"
+            ]
+        ],
+        "ID": 83
+    },
+    {
+        "sentence": "Much of the time it seems like they do not care about you.",
+        "quads": [
+            [
+                "NULL",
+                "do not care about you",
+                "service general",
+                "negative"
+            ]
+        ],
+        "ID": 84
+    },
+    {
+        "sentence": "We will go back every time we are in the City.",
+        "quads": [
+            [
+                "NULL",
+                "go back",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 85
+    },
+    {
+        "sentence": "I have to highly recommend the lobster roll - not to much mayo; you can tell it was a fresh lobster.",
+        "quads": [
+            [
+                "lobster roll",
+                "recommend",
+                "food quality",
+                "positive"
+            ],
+            [
+                "lobster",
+                "fresh",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 86
+    },
+    {
+        "sentence": "Thius is a must for anyone who loves Shabu-Shabu.",
+        "quads": [
+            [
+                "Shabu-Shabu",
+                "loves",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 87
+    },
+    {
+        "sentence": "Prices are very good.",
+        "quads": [
+            [
+                "NULL",
+                "good",
+                "restaurant prices",
+                "positive"
+            ]
+        ],
+        "ID": 88
+    },
+    {
+        "sentence": "A pleasant surprise.",
+        "quads": [
+            [
+                "NULL",
+                "pleasant surprise",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 89
+    },
+    {
+        "sentence": "The first time I went, and was completely taken by the live jazz band and atmosphere, I ordered the Lobster Cobb Salad.",
+        "quads": [
+            [
+                "live jazz band",
+                "taken",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "atmosphere",
+                "taken",
+                "ambience general",
+                "positive"
+            ]
+        ],
+        "ID": 90
+    },
+    {
+        "sentence": "The food is yummy, especially their cooked-to-perfection mussels in spicy tomato sauce and their shoestring crispy fries.",
+        "quads": [
+            [
+                "food",
+                "yummy",
+                "food quality",
+                "positive"
+            ],
+            [
+                "mussels in spicy tomato sauce",
+                "yummy",
+                "food quality",
+                "positive"
+            ],
+            [
+                "mussels in spicy tomato sauce",
+                "cooked-to-perfection",
+                "food quality",
+                "positive"
+            ],
+            [
+                "fries",
+                "yummy",
+                "food quality",
+                "positive"
+            ],
+            [
+                "fries",
+                "crispy",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 91
+    },
+    {
+        "sentence": "Try their chef 's specials -- they are to die for.",
+        "quads": [
+            [
+                "chef 's specials",
+                "Try",
+                "food quality",
+                "positive"
+            ],
+            [
+                "chef 's specials",
+                "die for",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 92
+    },
+    {
+        "sentence": "Great atmoshere and worth every bit.",
+        "quads": [
+            [
+                "atmoshere",
+                "Great",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "NULL",
+                "worth",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 93
+    },
+    {
+        "sentence": "However, I think Jeckll and Hydes t is one of those places that is fun to do once.",
+        "quads": [
+            [
+                "Jeckll and Hydes",
+                "fun",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 94
+    },
+    {
+        "sentence": "We were very disappointed.",
+        "quads": [
+            [
+                "NULL",
+                "disappointed",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 95
+    },
+    {
+        "sentence": "The tables are crammed way too close, the menu is typical of any Italian restaurant, and the wine list is simply overpriced.",
+        "quads": [
+            [
+                "tables",
+                "crammed",
+                "ambience general",
+                "negative"
+            ],
+            [
+                "tables",
+                "too close",
+                "ambience general",
+                "negative"
+            ],
+            [
+                "menu",
+                "typical",
+                "food style_options",
+                "neutral"
+            ],
+            [
+                "wine list",
+                "overpriced",
+                "drinks prices",
+                "negative"
+            ]
+        ],
+        "ID": 96
+    },
+    {
+        "sentence": "If we were to move from the upper east side, we would genuinely miss this restaurant.",
+        "quads": [
+            [
+                "restaurant",
+                "miss",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 97
+    },
+    {
+        "sentence": "Tiny dessert was $ 8.00... just plain overpriced for what it is.",
+        "quads": [
+            [
+                "dessert",
+                "plain",
+                "food quality",
+                "negative"
+            ],
+            [
+                "dessert",
+                "Tiny",
+                "food style_options",
+                "negative"
+            ],
+            [
+                "dessert",
+                "overpriced",
+                "food prices",
+                "negative"
+            ]
+        ],
+        "ID": 98
+    },
+    {
+        "sentence": "The place is small and cramped but the food is fantastic.",
+        "quads": [
+            [
+                "place",
+                "small",
+                "ambience general",
+                "negative"
+            ],
+            [
+                "place",
+                "cramped",
+                "ambience general",
+                "negative"
+            ],
+            [
+                "food",
+                "fantastic",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 99
+    },
+    {
+        "sentence": "and yes Dal Bukhara is so dam good and so are all the kababs.",
+        "quads": [
+            [
+                "kababs",
+                "good",
+                "food quality",
+                "positive"
+            ],
+            [
+                "Dal Bukhara",
+                "good",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 100
+    },
+    {
+        "sentence": "Warning : You may find it difficult to dine at other Japanese restaurants after a visit to Mizu!",
+        "quads": [
+            [
+                "Mizu",
+                "difficult",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 101
+    },
+    {
+        "sentence": "No gimmicks here -- the food speaks for itself in its freshness and preparation.",
+        "quads": [
+            [
+                "food",
+                "freshness",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 102
+    },
+    {
+        "sentence": "Guaranteed to be a tasty experience! )",
+        "quads": [
+            [
+                "NULL",
+                "tasty",
+                "drinks quality",
+                "positive"
+            ]
+        ],
+        "ID": 103
+    },
+    {
+        "sentence": "but overall i give it a 10",
+        "quads": [
+            [
+                "NULL",
+                "give it a 10",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 104
+    },
+    {
+        "sentence": "Would NEVER go back there.",
+        "quads": [
+            [
+                "NULL",
+                "NEVER go back",
+                "restaurant general",
+                "negative"
+            ]
+        ],
+        "ID": 105
+    },
+    {
+        "sentence": "Great neighborhood joint.",
+        "quads": [
+            [
+                "joint",
+                "Great",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 106
+    },
+    {
+        "sentence": "The decor is vibrant and eye-pleasing with several semi-private boths on the right side of the dining hall, which are great for a date.",
+        "quads": [
+            [
+                "decor",
+                "vibrant",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "decor",
+                "eye-pleasing",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "semi-private boths",
+                "great",
+                "ambience general",
+                "positive"
+            ]
+        ],
+        "ID": 107
+    },
+    {
+        "sentence": "The worst excuse for Japanese food I 've ever encountered.",
+        "quads": [
+            [
+                "NULL",
+                "worst",
+                "restaurant miscellaneous",
+                "negative"
+            ]
+        ],
+        "ID": 108
+    },
+    {
+        "sentence": "Be sure not to get anything other than bagels!..",
+        "quads": [
+            [
+                "NULL",
+                "not to get anything",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 109
+    },
+    {
+        "sentence": "Check out the secret back room.",
+        "quads": [
+            [
+                "back room",
+                "secret",
+                "ambience general",
+                "positive"
+            ]
+        ],
+        "ID": 110
+    },
+    {
+        "sentence": "This quaint and romantic trattoria is at the top of my Manhattan restaurant list.",
+        "quads": [
+            [
+                "trattoria",
+                "quaint",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "trattoria",
+                "romantic",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 111
+    },
+    {
+        "sentence": "Enjoyed a very nice Caesar Salad while my wife had arugula and goat cheese... both very tasty.",
+        "quads": [
+            [
+                "Caesar Salad",
+                "Enjoyed",
+                "food quality",
+                "positive"
+            ],
+            [
+                "Caesar Salad",
+                "nice",
+                "food quality",
+                "positive"
+            ],
+            [
+                "arugula and goat cheese",
+                "tasty",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 112
+    },
+    {
+        "sentence": "I had a great experience.",
+        "quads": [
+            [
+                "NULL",
+                "great",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 113
+    },
+    {
+        "sentence": "They don't concern much of customer 's health, just want to make money.",
+        "quads": [
+            [
+                "NULL",
+                "don't concern much",
+                "restaurant miscellaneous",
+                "negative"
+            ]
+        ],
+        "ID": 114
+    },
+    {
+        "sentence": "We ordered the special, grilled branzino, that was so infused with bone, it was difficult to eat.",
+        "quads": [
+            [
+                "grilled branzino",
+                "difficult to eat",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 115
+    },
+    {
+        "sentence": "please don't fool us.",
+        "quads": [
+            [
+                "NULL",
+                "fool",
+                "restaurant miscellaneous",
+                "negative"
+            ]
+        ],
+        "ID": 116
+    },
+    {
+        "sentence": "Don't judge this place prima facie, you have to try it and believe it, a home away from home for the literate heart.",
+        "quads": [
+            [
+                "place",
+                "try it and believe it",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 117
+    },
+    {
+        "sentence": "The cold appetizer dishes taste like the way I remember them to taste when I was growing up in Taiwan.",
+        "quads": [
+            [
+                "cold appetizer dishes",
+                "like the way I remember them",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 118
+    },
+    {
+        "sentence": "With the great variety on the menu, I eat here often and never get bored.",
+        "quads": [
+            [
+                "menu",
+                "great variety",
+                "food style_options",
+                "positive"
+            ]
+        ],
+        "ID": 119
+    },
+    {
+        "sentence": "i know, you were too busy showing off your vintage tee shirt and looking bored, but my agenda is i 'm here to eat and enjoy the company of friends, seeking a pleasant experience.",
+        "quads": [
+            [
+                "NULL",
+                "bored",
+                "service general",
+                "negative"
+            ]
+        ],
+        "ID": 120
+    },
+    {
+        "sentence": "Food was just average... if they lowered the prices just a bit, it would be a bigger draw.",
+        "quads": [
+            [
+                "Food",
+                "average",
+                "food quality",
+                "neutral"
+            ]
+        ],
+        "ID": 121
+    },
+    {
+        "sentence": "The last two times I ordered from here my food was soo spicy that I could barely eat it, and the spice took away from the flavor of the dish.",
+        "quads": [
+            [
+                "food",
+                "spicy",
+                "food quality",
+                "negative"
+            ],
+            [
+                "spice",
+                "could barely eat it",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 122
+    },
+    {
+        "sentence": "We will return many times for this oasis in mid-town.",
+        "quads": [
+            [
+                "NULL",
+                "return",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 123
+    },
+    {
+        "sentence": "Great wine selection, Gigondas is worth the price, and the house champagne is a great value.",
+        "quads": [
+            [
+                "wine selection",
+                "Great",
+                "drinks style_options",
+                "positive"
+            ],
+            [
+                "Gigondas",
+                "worth the price",
+                "drinks quality",
+                "positive"
+            ],
+            [
+                "house champagne",
+                "great value",
+                "drinks prices",
+                "positive"
+            ]
+        ],
+        "ID": 124
+    },
+    {
+        "sentence": "I thought I had died and gone to heaven.",
+        "quads": [
+            [
+                "NULL",
+                "heaven",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 125
+    },
+    {
+        "sentence": "Friendly staff that actually lets you enjoy your meal and the company you 're with.",
+        "quads": [
+            [
+                "staff",
+                "Friendly",
+                "service general",
+                "positive"
+            ]
+        ],
+        "ID": 126
+    },
+    {
+        "sentence": "The vibe is very relaxed and cozy, service was great and the food was excellent!",
+        "quads": [
+            [
+                "vibe",
+                "relaxed",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "vibe",
+                "cozy",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "service",
+                "great",
+                "service general",
+                "positive"
+            ],
+            [
+                "food",
+                "excellent",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 127
+    },
+    {
+        "sentence": "It 's definately not a place to go if you want to impress someone.",
+        "quads": [
+            [
+                "place",
+                "impress",
+                "restaurant miscellaneous",
+                "negative"
+            ]
+        ],
+        "ID": 128
+    },
+    {
+        "sentence": "My husband and I thougt it would be great to go to the Jekyll and Hyde Pub for our anniversary, and to our surprise it was fantastic.",
+        "quads": [
+            [
+                "Jekyll and Hyde Pub",
+                "great",
+                "restaurant general",
+                "positive"
+            ],
+            [
+                "Jekyll and Hyde Pub",
+                "fantastic",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 129
+    },
+    {
+        "sentence": "An excellent service",
+        "quads": [
+            [
+                "service",
+                "excellent",
+                "service general",
+                "positive"
+            ]
+        ],
+        "ID": 130
+    },
+    {
+        "sentence": "I heartily recommend.",
+        "quads": [
+            [
+                "NULL",
+                "recommend",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 131
+    },
+    {
+        "sentence": "This is the kind of place you 'd like to take all your friends to and still keep a secret.",
+        "quads": [
+            [
+                "place",
+                "like",
+                "restaurant miscellaneous",
+                "positive"
+            ]
+        ],
+        "ID": 132
+    },
+    {
+        "sentence": "Well, this place is so Ghetto its not even funny.",
+        "quads": [
+            [
+                "place",
+                "Ghetto",
+                "ambience general",
+                "negative"
+            ],
+            [
+                "place",
+                "not even funny",
+                "ambience general",
+                "negative"
+            ]
+        ],
+        "ID": 133
+    },
+    {
+        "sentence": "Authentic Shanghai style and I can not recommend a better Shanghai place in New York.",
+        "quads": [
+            [
+                "NULL",
+                "can not recommend a better",
+                "restaurant miscellaneous",
+                "positive"
+            ]
+        ],
+        "ID": 134
+    },
+    {
+        "sentence": "It was $ 14 not really bad for a pound of Pastrami-but it didn't have much taste-I 've had better for less elsewhere!",
+        "quads": [
+            [
+                "NULL",
+                "not really bad",
+                "food prices",
+                "neutral"
+            ],
+            [
+                "NULL",
+                "didn't have much taste",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 135
+    },
+    {
+        "sentence": "If you want good authentic Thai this place is not the place to go.",
+        "quads": [
+            [
+                "Thai",
+                "good authentic",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 136
+    },
+    {
+        "sentence": "Have recommended the place to friends, always gets good response.",
+        "quads": [
+            [
+                "place",
+                "recommended",
+                "restaurant miscellaneous",
+                "positive"
+            ]
+        ],
+        "ID": 137
+    },
+    {
+        "sentence": "this is can became on e of the NY Italian Food fare institutions.",
+        "quads": [
+            [
+                "NULL",
+                "fare institutions",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 138
+    },
+    {
+        "sentence": "The food is good, especially their more basic dishes, and the drinks are delicious.",
+        "quads": [
+            [
+                "food",
+                "good",
+                "food quality",
+                "positive"
+            ],
+            [
+                "basic dishes",
+                "good",
+                "food quality",
+                "positive"
+            ],
+            [
+                "drinks",
+                "delicious",
+                "drinks quality",
+                "positive"
+            ]
+        ],
+        "ID": 139
+    },
+    {
+        "sentence": "The ambience is pretty and nice for conversation, so a casual lunch here would probably be best.",
+        "quads": [
+            [
+                "ambience",
+                "pretty",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "ambience",
+                "nice",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "NULL",
+                "best",
+                "restaurant miscellaneous",
+                "positive"
+            ]
+        ],
+        "ID": 140
+    },
+    {
+        "sentence": "And amazingly cheap.",
+        "quads": [
+            [
+                "NULL",
+                "cheap",
+                "food prices",
+                "positive"
+            ]
+        ],
+        "ID": 141
+    },
+    {
+        "sentence": "Love the scene first off- the place has a character and nice light to it..very fortunate, location wise.",
+        "quads": [
+            [
+                "scene",
+                "Love",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "place",
+                "nice",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "location",
+                "fortunate",
+                "location general",
+                "positive"
+            ]
+        ],
+        "ID": 142
+    },
+    {
+        "sentence": "I started out with a Bombay beer which was big enough for two.",
+        "quads": [
+            [
+                "Bombay beer",
+                "big",
+                "drinks style_options",
+                "positive"
+            ]
+        ],
+        "ID": 143
+    },
+    {
+        "sentence": "She was very helpful in suggesting us drinks and helped us in ordering a lot of good dishes since we knew nothing about Indian food.",
+        "quads": [
+            [
+                "NULL",
+                "helpful",
+                "service general",
+                "positive"
+            ],
+            [
+                "dishes",
+                "good",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 144
+    },
+    {
+        "sentence": "I also recommend the rice dishes or the different varieties of congee ( rice porridge ).",
+        "quads": [
+            [
+                "rice dishes",
+                "recommend",
+                "food quality",
+                "positive"
+            ],
+            [
+                "congee ( rice porridge )",
+                "recommend",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 145
+    },
+    {
+        "sentence": "My six year old loved it.",
+        "quads": [
+            [
+                "NULL",
+                "loved",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 146
+    },
+    {
+        "sentence": "While the ambiance and atmosphere were great, the food and service could have been a lot better.",
+        "quads": [
+            [
+                "ambiance",
+                "great",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "atmosphere",
+                "great",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "food",
+                "could have been a lot better",
+                "food quality",
+                "negative"
+            ],
+            [
+                "service",
+                "could have been a lot better",
+                "service general",
+                "negative"
+            ]
+        ],
+        "ID": 147
+    },
+    {
+        "sentence": "It was wonderful.",
+        "quads": [
+            [
+                "NULL",
+                "wonderful",
+                "drinks quality",
+                "positive"
+            ]
+        ],
+        "ID": 148
+    },
+    {
+        "sentence": "Me and my girls will definitely go back.",
+        "quads": [
+            [
+                "NULL",
+                "go back",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 149
+    },
+    {
+        "sentence": "What a great place.",
+        "quads": [
+            [
+                "place",
+                "great",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 150
+    },
+    {
+        "sentence": "Interesting selection, good wines, service fine, fun decor.",
+        "quads": [
+            [
+                "wines",
+                "good",
+                "drinks quality",
+                "positive"
+            ],
+            [
+                "service",
+                "fine",
+                "service general",
+                "positive"
+            ],
+            [
+                "decor",
+                "fun",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "selection",
+                "Interesting",
+                "food style_options",
+                "positive"
+            ]
+        ],
+        "ID": 151
+    },
+    {
+        "sentence": "Service was slow had to wait to order and get food although not crowded.",
+        "quads": [
+            [
+                "Service",
+                "slow",
+                "service general",
+                "negative"
+            ]
+        ],
+        "ID": 152
+    },
+    {
+        "sentence": "Even after they overcharged me the last time I was there.",
+        "quads": [
+            [
+                "NULL",
+                "overcharged",
+                "service general",
+                "negative"
+            ]
+        ],
+        "ID": 153
+    },
+    {
+        "sentence": "i 've been to sapphire twice and both times the food was fine, if not good.",
+        "quads": [
+            [
+                "food",
+                "fine",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 154
+    },
+    {
+        "sentence": "The takeout is great too since they give high quality tupperware as well.",
+        "quads": [
+            [
+                "takeout",
+                "great",
+                "service general",
+                "positive"
+            ]
+        ],
+        "ID": 155
+    },
+    {
+        "sentence": "I like the ambience, it 's very dark and original.",
+        "quads": [
+            [
+                "ambience",
+                "like",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "ambience",
+                "dark",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "ambience",
+                "original",
+                "ambience general",
+                "positive"
+            ]
+        ],
+        "ID": 156
+    },
+    {
+        "sentence": "Finally a reliable Chinese restaurant!",
+        "quads": [
+            [
+                "Chinese restaurant",
+                "reliable",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 157
+    },
+    {
+        "sentence": "Yes, they use fancy ingredients, but even fancy ingredients don't make for good pizza unless someone knows how to get the crust right.",
+        "quads": [
+            [
+                "ingredients",
+                "fancy",
+                "food quality",
+                "positive"
+            ],
+            [
+                "pizza",
+                "don't make for good pizza",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 158
+    },
+    {
+        "sentence": "The service varys from day to day- sometimes they 're very nice, and sometimes not.",
+        "quads": [
+            [
+                "service",
+                "varys",
+                "service general",
+                "negative"
+            ]
+        ],
+        "ID": 159
+    },
+    {
+        "sentence": "We had the scallops as an appetizer and they were delicious and the sauce was wonderful.",
+        "quads": [
+            [
+                "scallops",
+                "delicious",
+                "food quality",
+                "positive"
+            ],
+            [
+                "sauce",
+                "wonderful",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 160
+    },
+    {
+        "sentence": "The pizza is yummy and I like the atmoshpere.",
+        "quads": [
+            [
+                "pizza",
+                "yummy",
+                "food quality",
+                "positive"
+            ],
+            [
+                "atmoshpere",
+                "like",
+                "ambience general",
+                "positive"
+            ]
+        ],
+        "ID": 161
+    },
+    {
+        "sentence": "He offers subpar service and has no personality.",
+        "quads": [
+            [
+                "service",
+                "subpar",
+                "service general",
+                "negative"
+            ]
+        ],
+        "ID": 162
+    },
+    {
+        "sentence": "This is such a lovely, peaceful place to eat outside.",
+        "quads": [
+            [
+                "place",
+                "lovely",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "place",
+                "peaceful",
+                "ambience general",
+                "positive"
+            ]
+        ],
+        "ID": 163
+    },
+    {
+        "sentence": "Even if the food wasn't this good, the garden is a great place to sit outside and relax.",
+        "quads": [
+            [
+                "garden",
+                "great",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "food",
+                "wasn't this good",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 164
+    },
+    {
+        "sentence": "They tell me they are going to cover the garden in glass for the winter, so i 'm looking forward to going there on a snowy night to enjoy it.",
+        "quads": [
+            [
+                "NULL",
+                "enjoy",
+                "restaurant miscellaneous",
+                "positive"
+            ]
+        ],
+        "ID": 165
+    },
+    {
+        "sentence": "the only things u could really taste are the very salty soy sauce ( even its low sodium ), the vinegar-soaked rice, and the scallion on top of the fish.",
+        "quads": [
+            [
+                "soy sauce",
+                "salty",
+                "food quality",
+                "negative"
+            ],
+            [
+                "rice",
+                "vinegar-soaked",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 166
+    },
+    {
+        "sentence": "It is terrific, as is the value.",
+        "quads": [
+            [
+                "NULL",
+                "terrific",
+                "food quality",
+                "positive"
+            ],
+            [
+                "NULL",
+                "terrific",
+                "food prices",
+                "positive"
+            ]
+        ],
+        "ID": 167
+    },
+    {
+        "sentence": "All in all we 're already coming up with excuses to go ahead really soon in the next few wks!!!!",
+        "quads": [
+            [
+                "NULL",
+                "go ahead really soon",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 168
+    },
+    {
+        "sentence": "All the staff is absolutely professional!!",
+        "quads": [
+            [
+                "staff",
+                "professional",
+                "service general",
+                "positive"
+            ]
+        ],
+        "ID": 169
+    },
+    {
+        "sentence": "Rao is a good restaurant, but it 's nothing special.",
+        "quads": [
+            [
+                "Rao",
+                "good",
+                "restaurant general",
+                "neutral"
+            ]
+        ],
+        "ID": 170
+    },
+    {
+        "sentence": "The food was pretty tradional but it was hot and good with large portions.",
+        "quads": [
+            [
+                "food",
+                "tradional",
+                "food quality",
+                "positive"
+            ],
+            [
+                "portions",
+                "large",
+                "food style_options",
+                "positive"
+            ]
+        ],
+        "ID": 171
+    },
+    {
+        "sentence": "The pizza is overpriced and soggy.",
+        "quads": [
+            [
+                "pizza",
+                "soggy",
+                "food quality",
+                "negative"
+            ],
+            [
+                "pizza",
+                "overpriced",
+                "food prices",
+                "negative"
+            ]
+        ],
+        "ID": 172
+    },
+    {
+        "sentence": "The restaurant is cute but not upscale.",
+        "quads": [
+            [
+                "restaurant",
+                "cute",
+                "restaurant general",
+                "neutral"
+            ],
+            [
+                "restaurant",
+                "not upscale",
+                "restaurant general",
+                "neutral"
+            ]
+        ],
+        "ID": 173
+    },
+    {
+        "sentence": "The best pad thai i 've ever had.",
+        "quads": [
+            [
+                "pad thai",
+                "best",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 174
+    },
+    {
+        "sentence": "I just don't understand all the hype...",
+        "quads": [
+            [
+                "NULL",
+                "don't understand",
+                "restaurant general",
+                "negative"
+            ]
+        ],
+        "ID": 175
+    },
+    {
+        "sentence": "Delicious crab cakes too.",
+        "quads": [
+            [
+                "crab cakes",
+                "Delicious",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 176
+    },
+    {
+        "sentence": "Very good wine choices.",
+        "quads": [
+            [
+                "wine choices",
+                "good",
+                "drinks style_options",
+                "positive"
+            ]
+        ],
+        "ID": 177
+    },
+    {
+        "sentence": "The food is amazing, rich pastas and fresh doughy pizza.",
+        "quads": [
+            [
+                "food",
+                "amazing",
+                "food quality",
+                "positive"
+            ],
+            [
+                "pastas",
+                "rich",
+                "food style_options",
+                "positive"
+            ],
+            [
+                "pizza",
+                "fresh doughy",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 178
+    },
+    {
+        "sentence": "One of my favorite places in Manhattan.",
+        "quads": [
+            [
+                "NULL",
+                "favorite",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 179
+    },
+    {
+        "sentence": "Good, fast service.",
+        "quads": [
+            [
+                "service",
+                "Good",
+                "service general",
+                "positive"
+            ],
+            [
+                "service",
+                "fast",
+                "service general",
+                "positive"
+            ]
+        ],
+        "ID": 180
+    },
+    {
+        "sentence": "Great staff.",
+        "quads": [
+            [
+                "staff",
+                "Great",
+                "service general",
+                "positive"
+            ]
+        ],
+        "ID": 181
+    },
+    {
+        "sentence": "Its location is good and the fact that Hutner College is near and their prices are very reasonable, makes students go back to Suan again and again.",
+        "quads": [
+            [
+                "location",
+                "good",
+                "location general",
+                "positive"
+            ],
+            [
+                "Suan",
+                "reasonable",
+                "restaurant prices",
+                "positive"
+            ]
+        ],
+        "ID": 182
+    },
+    {
+        "sentence": "In the evening, this place attracted a well dressed, with it, NY crowd.",
+        "quads": [
+            [
+                "crowd",
+                "attracted",
+                "restaurant miscellaneous",
+                "positive"
+            ]
+        ],
+        "ID": 183
+    },
+    {
+        "sentence": "This place has the best Chinese style BBQ ribs in the city.",
+        "quads": [
+            [
+                "BBQ ribs",
+                "best",
+                "food quality",
+                "positive"
+            ],
+            [
+                "BBQ ribs",
+                "best",
+                "food style_options",
+                "positive"
+            ]
+        ],
+        "ID": 184
+    },
+    {
+        "sentence": "But that wasn't the icing on the cake : a tiramisu that resembled nothing I have ever had.",
+        "quads": [
+            [
+                "tiramisu",
+                "nothing",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 185
+    },
+    {
+        "sentence": "Service was devine, oysters where a sensual as they come, and the price can't be beat!!!",
+        "quads": [
+            [
+                "Service",
+                "devine",
+                "service general",
+                "positive"
+            ],
+            [
+                "oysters",
+                "sensual",
+                "food quality",
+                "positive"
+            ],
+            [
+                "NULL",
+                "can't be beat",
+                "restaurant prices",
+                "positive"
+            ]
+        ],
+        "ID": 186
+    },
+    {
+        "sentence": "Food was very good, but not what I would consider out of this world.",
+        "quads": [
+            [
+                "Food",
+                "good",
+                "food quality",
+                "neutral"
+            ]
+        ],
+        "ID": 187
+    },
+    {
+        "sentence": "Looking around, I saw a room full of New Yorkers enjoying a real meal in a real restaurant, not a clubhouse of the fabulous trying to be seen.",
+        "quads": [
+            [
+                "meal",
+                "real",
+                "food quality",
+                "positive"
+            ],
+            [
+                "restaurant",
+                "real",
+                "ambience general",
+                "positive"
+            ]
+        ],
+        "ID": 188
+    },
+    {
+        "sentence": "it 's delicious!",
+        "quads": [
+            [
+                "NULL",
+                "delicious",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 189
+    },
+    {
+        "sentence": "It is also extremely well priced.",
+        "quads": [
+            [
+                "NULL",
+                "well priced",
+                "food prices",
+                "positive"
+            ]
+        ],
+        "ID": 190
+    },
+    {
+        "sentence": "Moderate prices.",
+        "quads": [
+            [
+                "NULL",
+                "Moderate",
+                "restaurant prices",
+                "neutral"
+            ]
+        ],
+        "ID": 191
+    },
+    {
+        "sentence": "It is one the nicest outdoor restaurants I have ever seen in NY -- I am from Italy and this place rivals the ones in my country.",
+        "quads": [
+            [
+                "outdoor restaurants",
+                "nicest",
+                "ambience general",
+                "positive"
+            ]
+        ],
+        "ID": 192
+    },
+    {
+        "sentence": "I highly recommend visiting this restaurant and having dinner and drinks!",
+        "quads": [
+            [
+                "restaurant",
+                "recommend",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 193
+    },
+    {
+        "sentence": "Steamed fresh so brought hot hot hot to your table.",
+        "quads": [
+            [
+                "NULL",
+                "fresh",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 194
+    },
+    {
+        "sentence": "I was here a few weeks back and we had the worst customer service experience at a restaurant ever.",
+        "quads": [
+            [
+                "customer service",
+                "worst",
+                "service general",
+                "negative"
+            ]
+        ],
+        "ID": 195
+    },
+    {
+        "sentence": "Best Reuben sandwich ever!",
+        "quads": [
+            [
+                "Reuben sandwich",
+                "Best",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 196
+    },
+    {
+        "sentence": "I have to say that I am pleasantly suprised and I will most likely stop in again if I am in the neighborhood.",
+        "quads": [
+            [
+                "NULL",
+                "pleasantly suprised",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 197
+    },
+    {
+        "sentence": "Our server was very helpful and friendly.",
+        "quads": [
+            [
+                "server",
+                "helpful",
+                "service general",
+                "positive"
+            ],
+            [
+                "server",
+                "friendly",
+                "service general",
+                "positive"
+            ]
+        ],
+        "ID": 198
+    },
+    {
+        "sentence": "My roommate and I LOVE this place.",
+        "quads": [
+            [
+                "place",
+                "LOVE",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 199
+    },
+    {
+        "sentence": "This has got to be one of the most overrated restaurants in Brooklyn.",
+        "quads": [
+            [
+                "NULL",
+                "overrated",
+                "restaurant general",
+                "negative"
+            ]
+        ],
+        "ID": 200
+    },
+    {
+        "sentence": "Although the tables may be closely situated, the candle-light, food quality and service overcompensate.",
+        "quads": [
+            [
+                "candle-light",
+                "overcompensate",
+                "ambience general",
+                "positive"
+            ],
+            [
+                "food",
+                "overcompensate",
+                "food quality",
+                "positive"
+            ],
+            [
+                "service",
+                "overcompensate",
+                "service general",
+                "positive"
+            ],
+            [
+                "tables",
+                "closely situated",
+                "ambience general",
+                "negative"
+            ]
+        ],
+        "ID": 201
+    },
+    {
+        "sentence": "Winnie and her staff are the best crew you can find serving you.",
+        "quads": [
+            [
+                "staff",
+                "best",
+                "service general",
+                "positive"
+            ],
+            [
+                "Winnie",
+                "best",
+                "service general",
+                "positive"
+            ]
+        ],
+        "ID": 202
+    },
+    {
+        "sentence": "Food was good and the view of the new york city skiline was terrific even on a foggy rainy day like that of when I went.",
+        "quads": [
+            [
+                "Food",
+                "good",
+                "food quality",
+                "positive"
+            ],
+            [
+                "view of the new york city skiline",
+                "terrific",
+                "location general",
+                "positive"
+            ]
+        ],
+        "ID": 203
+    },
+    {
+        "sentence": "Pizza is terrific, as is homemade pasta.",
+        "quads": [
+            [
+                "Pizza",
+                "terrific",
+                "food quality",
+                "positive"
+            ],
+            [
+                "homemade pasta",
+                "terrific",
+                "food quality",
+                "positive"
+            ]
+        ],
+        "ID": 204
+    },
+    {
+        "sentence": "I recently tried Suan and I thought that it was great.",
+        "quads": [
+            [
+                "Suan",
+                "great",
+                "restaurant general",
+                "positive"
+            ]
+        ],
+        "ID": 205
+    },
+    {
+        "sentence": "I 'm not picky - but it was actually gross.",
+        "quads": [
+            [
+                "NULL",
+                "gross",
+                "food quality",
+                "negative"
+            ]
+        ],
+        "ID": 206
+    },
+    {
+        "sentence": "Food was okay, nothing great.",
+        "quads": [
+            [
+                "Food",
+                "okay",
+                "food quality",
+                "neutral"
+            ],
+            [
+                "Food",
+                "nothing great",
+                "food quality",
+                "neutral"
+            ]
+        ],
+        "ID": 207
+    },
+    {
+        "sentence": "The sake menu should not be overlooked!",
+        "quads": [
+            [
+                "sake menu",
+                "overlooked",
+                "drinks style_options",
+                "positive"
+            ]
+        ],
+        "ID": 208
+    }
+]

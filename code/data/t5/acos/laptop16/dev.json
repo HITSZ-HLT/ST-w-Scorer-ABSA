@@ -1,0 +1,4598 @@
+﻿[
+    {
+        "sentence": "this unit is ` ` pretty ` ` and stylish, so my high school daughter was attracted to it for that reason.",
+        "quads": [
+            [
+                "unit",
+                "pretty",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "unit",
+                "stylish",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 0
+    },
+    {
+        "sentence": "for now i'm okay with upping the experience & device to 3 out of 5 stars.",
+        "quads": [
+            [
+                "device",
+                "NULL",
+                "laptop general",
+                "neutral"
+            ]
+        ],
+        "ID": 1
+    },
+    {
+        "sentence": "seems unlikely but whatever, i ' ll go with it.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "laptop general",
+                "neutral"
+            ]
+        ],
+        "ID": 2
+    },
+    {
+        "sentence": "this version has been my least favorite version i ' ve had for the following reasons listed bellow the pros.",
+        "quads": [
+            [
+                "version",
+                "least favorite",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 3
+    },
+    {
+        "sentence": "- biggest disappointment is the track pad.",
+        "quads": [
+            [
+                "track pad",
+                "disappointment",
+                "hardware general",
+                "negative"
+            ]
+        ],
+        "ID": 4
+    },
+    {
+        "sentence": "should not of bought this chromebook.",
+        "quads": [
+            [
+                "chromebook",
+                "NULL",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 5
+    },
+    {
+        "sentence": "after about 5 / 10 minutes of use the screen goes crazy and you have to force to power down and wait to restart.",
+        "quads": [
+            [
+                "screen",
+                "crazy",
+                "display operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 6
+    },
+    {
+        "sentence": "i can not stand the trackpad or the keyboard keys.",
+        "quads": [
+            [
+                "trackpad",
+                "NULL",
+                "keyboard general",
+                "negative"
+            ],
+            [
+                "keyboard keys",
+                "NULL",
+                "keyboard general",
+                "negative"
+            ]
+        ],
+        "ID": 7
+    },
+    {
+        "sentence": "the keyboard is stiff and unresponsive to my typing at times.",
+        "quads": [
+            [
+                "keyboard",
+                "stiff",
+                "keyboard quality",
+                "negative"
+            ],
+            [
+                "keyboard",
+                "unresponsive",
+                "keyboard quality",
+                "negative"
+            ]
+        ],
+        "ID": 8
+    },
+    {
+        "sentence": "the chromebook r 11 was hardly used and only a few months old.",
+        "quads": [
+            [
+                "chromebook r 11",
+                "NULL",
+                "laptop usability",
+                "negative"
+            ]
+        ],
+        "ID": 9
+    },
+    {
+        "sentence": "one day it just would not power up.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "battery operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 10
+    },
+    {
+        "sentence": "some apps don't work but the play store is still in beta right now",
+        "quads": [
+            [
+                "apps",
+                "NULL",
+                "software general",
+                "negative"
+            ],
+            [
+                "play store",
+                "NULL",
+                "software general",
+                "neutral"
+            ]
+        ],
+        "ID": 11
+    },
+    {
+        "sentence": "what really did it was when i tried contacting acer support i was simply told ` ` try a restart ` ` and then ` ` call google, we can't help you ` `.",
+        "quads": [
+            [
+                "support",
+                "NULL",
+                "support general",
+                "negative"
+            ]
+        ],
+        "ID": 12
+    },
+    {
+        "sentence": "returning it after one day",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 13
+    },
+    {
+        "sentence": "but do not dare will only be good for playing games maybe it will get better.",
+        "quads": [
+            [
+                "it",
+                "good",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 14
+    },
+    {
+        "sentence": "after some use, the battery charge had logically gone down some ( down to about 80 % ), and so i went back to my office to plug it in.",
+        "quads": [
+            [
+                "battery",
+                "NULL",
+                "battery operation_performance",
+                "neutral"
+            ]
+        ],
+        "ID": 15
+    },
+    {
+        "sentence": "asus customer support was through chat and cumbersome.",
+        "quads": [
+            [
+                "asus customer support",
+                "cumbersome",
+                "support general",
+                "negative"
+            ]
+        ],
+        "ID": 16
+    },
+    {
+        "sentence": "i had it on my desk and was watching youtube videos and it went black.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "laptop operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 17
+    },
+    {
+        "sentence": "the screen is very dim however.",
+        "quads": [
+            [
+                "screen",
+                "dim",
+                "display operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 18
+    },
+    {
+        "sentence": "the brand new vivobook is dead in the water!",
+        "quads": [
+            [
+                "vivobook",
+                "dead",
+                "laptop quality",
+                "negative"
+            ]
+        ],
+        "ID": 19
+    },
+    {
+        "sentence": "don't buy this machine.",
+        "quads": [
+            [
+                "machine",
+                "NULL",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 20
+    },
+    {
+        "sentence": "sounds like a good deal for a $ 620 laptop but battery doesn't perform as promised i am hardly getting 4 hrs.",
+        "quads": [
+            [
+                "laptop",
+                "good",
+                "laptop price",
+                "positive"
+            ],
+            [
+                "battery",
+                "NULL",
+                "battery operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 21
+    },
+    {
+        "sentence": "external speakers were decent sounding until right one gave away and now is heavily distorted at even mid vol.",
+        "quads": [
+            [
+                "external speakers",
+                "decent",
+                "multimedia_devices general",
+                "positive"
+            ],
+            [
+                "external speakers",
+                "NULL",
+                "multimedia_devices general",
+                "negative"
+            ]
+        ],
+        "ID": 22
+    },
+    {
+        "sentence": "screen is good.",
+        "quads": [
+            [
+                "screen",
+                "good",
+                "display general",
+                "positive"
+            ]
+        ],
+        "ID": 23
+    },
+    {
+        "sentence": "keyboard is decent with good travel.",
+        "quads": [
+            [
+                "keyboard",
+                "decent",
+                "keyboard portability",
+                "positive"
+            ],
+            [
+                "keyboard",
+                "good",
+                "keyboard portability",
+                "positive"
+            ]
+        ],
+        "ID": 24
+    },
+    {
+        "sentence": "screen is amazing",
+        "quads": [
+            [
+                "screen",
+                "amazing",
+                "display general",
+                "positive"
+            ]
+        ],
+        "ID": 25
+    },
+    {
+        "sentence": "thin bezels allow for a compact frame",
+        "quads": [
+            [
+                "bezels",
+                "thin",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 26
+    },
+    {
+        "sentence": "overall this is a good system for the price and i do recommend the ssd for the price.",
+        "quads": [
+            [
+                "system",
+                "good",
+                "os price",
+                "positive"
+            ],
+            [
+                "ssd",
+                "recommend",
+                "hard_disc price",
+                "positive"
+            ]
+        ],
+        "ID": 27
+    },
+    {
+        "sentence": "but my main concerns for everyone is the heat and fan noises, both are very apparent and if you have this on your lap you better have a laptop tray or keep it on a desk.",
+        "quads": [
+            [
+                "fan",
+                "concerns",
+                "fans&cooling operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 28
+    },
+    {
+        "sentence": "always loved asus and they build amazing machines.",
+        "quads": [
+            [
+                "asus",
+                "loved",
+                "company general",
+                "positive"
+            ],
+            [
+                "machines",
+                "amazing",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 29
+    },
+    {
+        "sentence": "if you can save for 750 - 800 i would recommend going up a bit in the asus line.",
+        "quads": [
+            [
+                "asus",
+                "recommend",
+                "company general",
+                "positive"
+            ]
+        ],
+        "ID": 30
+    },
+    {
+        "sentence": "it seems like there is a problem with the processor because it constantly starts and stops while i'm trying to surf the web.",
+        "quads": [
+            [
+                "processor",
+                "NULL",
+                "cpu general",
+                "negative"
+            ]
+        ],
+        "ID": 31
+    },
+    {
+        "sentence": "bought this on may, barely used it and now 4 months later it's randomly shutting down every few minutes.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 32
+    },
+    {
+        "sentence": "pros : lightweight and looks nice.",
+        "quads": [
+            [
+                "NULL",
+                "pros",
+                "laptop portability",
+                "positive"
+            ],
+            [
+                "NULL",
+                "lightweight",
+                "laptop portability",
+                "positive"
+            ],
+            [
+                "NULL",
+                "pros",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "NULL",
+                "nice",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 33
+    },
+    {
+        "sentence": "this computer is loud!",
+        "quads": [
+            [
+                "computer",
+                "loud",
+                "laptop design_features",
+                "negative"
+            ]
+        ],
+        "ID": 34
+    },
+    {
+        "sentence": "i am so disgusted and disheartened by my dealings with asus support, it's hard to believe.",
+        "quads": [
+            [
+                "asus support",
+                "disgusted",
+                "support quality",
+                "negative"
+            ],
+            [
+                "asus support",
+                "disheartened",
+                "support quality",
+                "negative"
+            ]
+        ],
+        "ID": 35
+    },
+    {
+        "sentence": "returned because had it less than a month and it decided to go crazy and start typing by its self ect.",
+        "quads": [
+            [
+                "NULL",
+                "crazy",
+                "laptop operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 36
+    },
+    {
+        "sentence": "this computer has wasted so much of my time already.",
+        "quads": [
+            [
+                "computer",
+                "NULL",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 37
+    },
+    {
+        "sentence": "it still is nice looking with a textured cover and being black overall.",
+        "quads": [
+            [
+                "NULL",
+                "nice",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 38
+    },
+    {
+        "sentence": "it opens programs immediately.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "os operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 39
+    },
+    {
+        "sentence": "i do not think i will need to upgrade the ram.",
+        "quads": [
+            [
+                "ram",
+                "NULL",
+                "memory general",
+                "neutral"
+            ]
+        ],
+        "ID": 40
+    },
+    {
+        "sentence": "acer made a winner here!",
+        "quads": [
+            [
+                "acer",
+                "winner",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 41
+    },
+    {
+        "sentence": "buy this computer and you ' ll be very happy with it.",
+        "quads": [
+            [
+                "computer",
+                "happy",
+                "laptop price",
+                "positive"
+            ]
+        ],
+        "ID": 42
+    },
+    {
+        "sentence": "+ backlight kb and travel feels pretty nice on the keys.",
+        "quads": [
+            [
+                "backlight kb",
+                "nice",
+                "keyboard operation_performance",
+                "positive"
+            ],
+            [
+                "keys",
+                "nice",
+                "keyboard operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 43
+    },
+    {
+        "sentence": "- an optical drive if you ever want to play a classic game or watch a dvd.",
+        "quads": [
+            [
+                "optical drive",
+                "NULL",
+                "optical_drives general",
+                "neutral"
+            ]
+        ],
+        "ID": 44
+    },
+    {
+        "sentence": "the ports were another thing that i was really excited to see fully included on a laptop in this price range.",
+        "quads": [
+            [
+                "ports",
+                "excited",
+                "ports general",
+                "positive"
+            ],
+            [
+                "laptop",
+                "NULL",
+                "laptop price",
+                "positive"
+            ]
+        ],
+        "ID": 45
+    },
+    {
+        "sentence": "i ' ve been happy being able to plug in and run overwatch from time to time on this laptop, with higher settings.",
+        "quads": [
+            [
+                "laptop",
+                "happy",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 46
+    },
+    {
+        "sentence": "this is the best laptop for the price.",
+        "quads": [
+            [
+                "laptop",
+                "best",
+                "laptop price",
+                "positive"
+            ]
+        ],
+        "ID": 47
+    },
+    {
+        "sentence": "i like that it's got the 8th generation i5 cpu.",
+        "quads": [
+            [
+                "8th generation i5 cpu",
+                "like",
+                "cpu general",
+                "positive"
+            ]
+        ],
+        "ID": 48
+    },
+    {
+        "sentence": "dedicated graphics card",
+        "quads": [
+            [
+                "graphics card",
+                "dedicated",
+                "graphics general",
+                "positive"
+            ]
+        ],
+        "ID": 49
+    },
+    {
+        "sentence": "the plastic that borders the screen kind of comes out ever so slightly.",
+        "quads": [
+            [
+                "screen",
+                "NULL",
+                "display design_features",
+                "negative"
+            ]
+        ],
+        "ID": 50
+    },
+    {
+        "sentence": "it's pretty fast for a laptop especially a laptop in this price point.",
+        "quads": [
+            [
+                "laptop",
+                "fast",
+                "laptop operation_performance",
+                "positive"
+            ],
+            [
+                "NULL",
+                "NULL",
+                "laptop price",
+                "positive"
+            ]
+        ],
+        "ID": 51
+    },
+    {
+        "sentence": "i would knock a star for the hard drive size since it's incredibly small but at this price you can easily pick up large one to add if you want to and it's not like you aren't warned when you buy it.",
+        "quads": [
+            [
+                "hard drive size",
+                "small",
+                "hard_disc miscellaneous",
+                "positive"
+            ]
+        ],
+        "ID": 52
+    },
+    {
+        "sentence": "the picture clarity is amazing and the backlit keyboard is awesome.",
+        "quads": [
+            [
+                "picture clarity",
+                "amazing",
+                "display quality",
+                "positive"
+            ],
+            [
+                "backlit keyboard",
+                "awesome",
+                "keyboard design_features",
+                "positive"
+            ]
+        ],
+        "ID": 53
+    },
+    {
+        "sentence": "overall, this budget laptop ticks all the boxes and there is nothing on the market that is new with so many features crammed in at this price.",
+        "quads": [
+            [
+                "budget laptop",
+                "NULL",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 54
+    },
+    {
+        "sentence": "can't beat it for the price.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "laptop price",
+                "positive"
+            ]
+        ],
+        "ID": 55
+    },
+    {
+        "sentence": "also love that access to the hd / ssd and ram slots is really easy.",
+        "quads": [
+            [
+                "ram slots",
+                "easy",
+                "memory design_features",
+                "positive"
+            ],
+            [
+                "hd / ssd",
+                "love",
+                "memory design_features",
+                "positive"
+            ]
+        ],
+        "ID": 56
+    },
+    {
+        "sentence": "acer seems to be the only one who puts together stuff like this.",
+        "quads": [
+            [
+                "acer",
+                "NULL",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 57
+    },
+    {
+        "sentence": "the bluetooth connects easily to everything.",
+        "quads": [
+            [
+                "bluetooth",
+                "NULL",
+                "multimedia_devices connectivity",
+                "positive"
+            ]
+        ],
+        "ID": 58
+    },
+    {
+        "sentence": "it boots in seconds although i usually just leave it on constantly.",
+        "quads": [
+            [
+                "boots",
+                "NULL",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 59
+    },
+    {
+        "sentence": "- the battery life is excellent ( i get 6 - 8 hours of normal university student usage out of it ) and even when i'm using it, it charges as fast as my phone.",
+        "quads": [
+            [
+                "battery life",
+                "excellent",
+                "battery operation_performance",
+                "positive"
+            ],
+            [
+                "battery life",
+                "fast",
+                "battery operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 60
+    },
+    {
+        "sentence": "however, other than video calls it does really well.",
+        "quads": [
+            [
+                "NULL",
+                "well",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 61
+    },
+    {
+        "sentence": "- the spacebar is finicky.",
+        "quads": [
+            [
+                "spacebar",
+                "finicky",
+                "keyboard design_features",
+                "negative"
+            ]
+        ],
+        "ID": 62
+    },
+    {
+        "sentence": "the chromebook has instant connection and a hugely impressive 8 - hour battery life when left on.",
+        "quads": [
+            [
+                "chromebook",
+                "NULL",
+                "laptop connectivity",
+                "positive"
+            ],
+            [
+                "battery life",
+                "impressive",
+                "battery operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 63
+    },
+    {
+        "sentence": "i just got it today and i love it!",
+        "quads": [
+            [
+                "NULL",
+                "love",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 64
+    },
+    {
+        "sentence": "if you are in the google echo system, then this is great.",
+        "quads": [
+            [
+                "google echo system",
+                "great",
+                "software general",
+                "positive"
+            ]
+        ],
+        "ID": 65
+    },
+    {
+        "sentence": "works great!",
+        "quads": [
+            [
+                "NULL",
+                "great",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 66
+    },
+    {
+        "sentence": "he loves it.",
+        "quads": [
+            [
+                "NULL",
+                "loves",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 67
+    },
+    {
+        "sentence": "a great chromebook at a very reasonable price, includes the google play store.",
+        "quads": [
+            [
+                "chromebook",
+                "great",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "chromebook",
+                "reasonable",
+                "laptop price",
+                "positive"
+            ]
+        ],
+        "ID": 68
+    },
+    {
+        "sentence": "that being said, my son loves it.",
+        "quads": [
+            [
+                "NULL",
+                "loves",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 69
+    },
+    {
+        "sentence": "this is a functional laptop, perfect for work and casual internet browsing.",
+        "quads": [
+            [
+                "laptop",
+                "functional",
+                "laptop operation_performance",
+                "positive"
+            ],
+            [
+                "laptop",
+                "perfect",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 70
+    },
+    {
+        "sentence": "great computer and great value, our second chromebook and first one still doing fine just needed another for family.",
+        "quads": [
+            [
+                "computer",
+                "NULL",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "computer",
+                "NULL",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 71
+    },
+    {
+        "sentence": "i wanted an inexpensive chromebook and this fit the bill.",
+        "quads": [
+            [
+                "chromebook",
+                "inexpensive",
+                "laptop price",
+                "positive"
+            ]
+        ],
+        "ID": 72
+    },
+    {
+        "sentence": "set up is take out of box and open cover.",
+        "quads": [
+            [
+                "set up",
+                "NULL",
+                "laptop usability",
+                "positive"
+            ]
+        ],
+        "ID": 73
+    },
+    {
+        "sentence": "works great.",
+        "quads": [
+            [
+                "NULL",
+                "great",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 74
+    },
+    {
+        "sentence": "i loved mine, so i got her the same one.",
+        "quads": [
+            [
+                "NULL",
+                "loved",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 75
+    },
+    {
+        "sentence": "can't really find a viewing angle where all of it looks right at the same time.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "display operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 76
+    },
+    {
+        "sentence": "very easy to set up.",
+        "quads": [
+            [
+                "set up",
+                "easy",
+                "laptop usability",
+                "positive"
+            ]
+        ],
+        "ID": 77
+    },
+    {
+        "sentence": "the chromebook was packaged well and we saw no defects ( ours was used ).",
+        "quads": [
+            [
+                "chromebook",
+                "well",
+                "shipping quality",
+                "positive"
+            ],
+            [
+                "chromebook",
+                "no defects",
+                "shipping quality",
+                "positive"
+            ]
+        ],
+        "ID": 78
+    },
+    {
+        "sentence": "it is a basic little laptop and i love it.",
+        "quads": [
+            [
+                "laptop",
+                "love",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 79
+    },
+    {
+        "sentence": "the battery life is incredible and literally lasts all day, not to mention it charges to 100 % in about an hour and a half.",
+        "quads": [
+            [
+                "battery life",
+                "incredible",
+                "battery operation_performance",
+                "positive"
+            ],
+            [
+                "battery life",
+                "NULL",
+                "power_supply operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 80
+    },
+    {
+        "sentence": "linux is a fairly light os depending on the distro you use.",
+        "quads": [
+            [
+                "linux",
+                "light",
+                "os design_features",
+                "positive"
+            ],
+            [
+                "os",
+                "light",
+                "os design_features",
+                "positive"
+            ]
+        ],
+        "ID": 81
+    },
+    {
+        "sentence": "there is a lot of ' bang for your buck ' in the lenovo ideapad 320.",
+        "quads": [
+            [
+                "lenovo ideapad 320",
+                "NULL",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 82
+    },
+    {
+        "sentence": "low rpm hdd.",
+        "quads": [
+            [
+                "hdd",
+                "low",
+                "hard_disc operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 83
+    },
+    {
+        "sentence": "my only fair complaint is that it occasionally restarts itself without warning ( usually no more than once every day or two ).",
+        "quads": [
+            [
+                "NULL",
+                "complaint",
+                "laptop operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 84
+    },
+    {
+        "sentence": "excellent laptop good speed on uploads and download.",
+        "quads": [
+            [
+                "laptop",
+                "excellent",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "laptop",
+                "good",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 85
+    },
+    {
+        "sentence": "love the screen resolution.",
+        "quads": [
+            [
+                "screen resolution",
+                "love",
+                "display operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 86
+    },
+    {
+        "sentence": "a good product!",
+        "quads": [
+            [
+                "product",
+                "good",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 87
+    },
+    {
+        "sentence": "thanks for the good quality!",
+        "quads": [
+            [
+                "NULL",
+                "good",
+                "laptop quality",
+                "positive"
+            ]
+        ],
+        "ID": 88
+    },
+    {
+        "sentence": "light thin best price power laptop",
+        "quads": [
+            [
+                "laptop",
+                "light",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "laptop",
+                "thin",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "laptop",
+                "best",
+                "laptop price",
+                "positive"
+            ]
+        ],
+        "ID": 89
+    },
+    {
+        "sentence": "love this so much!",
+        "quads": [
+            [
+                "NULL",
+                "love",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 90
+    },
+    {
+        "sentence": "at a ` ` black friday ` ` price, this computers specs could not be beat for the value to dollar performance ratio.",
+        "quads": [
+            [
+                "computers specs",
+                "NULL",
+                "laptop price",
+                "positive"
+            ]
+        ],
+        "ID": 91
+    },
+    {
+        "sentence": "overall, this was a good buy and i still love my purchase nonetheless.",
+        "quads": [
+            [
+                "NULL",
+                "good",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "NULL",
+                "love",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 92
+    },
+    {
+        "sentence": "i'm using it mainly to store movies, and the 1 tb drive is nice.",
+        "quads": [
+            [
+                "drive",
+                "nice",
+                "hard_disc general",
+                "positive"
+            ]
+        ],
+        "ID": 93
+    },
+    {
+        "sentence": "nice keyboard.",
+        "quads": [
+            [
+                "keyboard",
+                "nice",
+                "keyboard general",
+                "positive"
+            ]
+        ],
+        "ID": 94
+    },
+    {
+        "sentence": "i have always loved loved the kindles.",
+        "quads": [
+            [
+                "kindles",
+                "loved",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "kindles",
+                "NULL",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 95
+    },
+    {
+        "sentence": "my only complaint is that the mouse keypad is a little big.",
+        "quads": [
+            [
+                "mouse keypad",
+                "complaint",
+                "mouse design_features",
+                "negative"
+            ],
+            [
+                "mouse keypad",
+                "big",
+                "mouse design_features",
+                "negative"
+            ]
+        ],
+        "ID": 96
+    },
+    {
+        "sentence": "so, i have had this laptop for almost a week and have put it through the ringer.",
+        "quads": [
+            [
+                "laptop",
+                "NULL",
+                "laptop general",
+                "neutral"
+            ]
+        ],
+        "ID": 97
+    },
+    {
+        "sentence": "only thing i really didn't like about this was how quickly the battery drained.",
+        "quads": [
+            [
+                "battery",
+                "'t like",
+                "battery operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 98
+    },
+    {
+        "sentence": "i haven't used it much for gaming but i imagine it works fine.",
+        "quads": [
+            [
+                "NULL",
+                "fine",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 99
+    },
+    {
+        "sentence": "my kids have played roblox and minecraft on it along with fortnite so i think it can handle online gaming pretty good.",
+        "quads": [
+            [
+                "NULL",
+                "good",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 100
+    },
+    {
+        "sentence": "if you ' re big on aesthetics then you ' ll love the look.",
+        "quads": [
+            [
+                "look",
+                "love",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 101
+    },
+    {
+        "sentence": "i will never use another microsoft program as long as i live.",
+        "quads": [
+            [
+                "microsoft program",
+                "NULL",
+                "software general",
+                "negative"
+            ]
+        ],
+        "ID": 102
+    },
+    {
+        "sentence": "just a home pc laptop that works very well.",
+        "quads": [
+            [
+                "home pc laptop",
+                "well",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 103
+    },
+    {
+        "sentence": "it has a full size keyboard, a number pad, a camera, and great big screen!",
+        "quads": [
+            [
+                "keyboard",
+                "NULL",
+                "keyboard design_features",
+                "positive"
+            ],
+            [
+                "number pad",
+                "NULL",
+                "keyboard design_features",
+                "positive"
+            ],
+            [
+                "camera",
+                "NULL",
+                "keyboard design_features",
+                "neutral"
+            ],
+            [
+                "screen",
+                "great",
+                "display design_features",
+                "positive"
+            ],
+            [
+                "screen",
+                "big",
+                "display design_features",
+                "positive"
+            ]
+        ],
+        "ID": 104
+    },
+    {
+        "sentence": "this is just perfect.",
+        "quads": [
+            [
+                "NULL",
+                "perfect",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 105
+    },
+    {
+        "sentence": "very happy with this laptop although not a fan of windows 10.",
+        "quads": [
+            [
+                "laptop",
+                "happy",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "windows 10",
+                "NULL",
+                "os general",
+                "negative"
+            ]
+        ],
+        "ID": 106
+    },
+    {
+        "sentence": "navigates well.",
+        "quads": [
+            [
+                "navigates",
+                "well",
+                "out_of_scope general",
+                "positive"
+            ]
+        ],
+        "ID": 107
+    },
+    {
+        "sentence": "using it for doing programming, app development, and electronics projects.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "laptop general",
+                "neutral"
+            ]
+        ],
+        "ID": 108
+    },
+    {
+        "sentence": "so far i'm enjoying it.",
+        "quads": [
+            [
+                "NULL",
+                "enjoying",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 109
+    },
+    {
+        "sentence": "it is very good for the price.",
+        "quads": [
+            [
+                "NULL",
+                "good",
+                "laptop price",
+                "positive"
+            ]
+        ],
+        "ID": 110
+    },
+    {
+        "sentence": "but, until that time, this review stands as : do not buy if your care about the display's life.",
+        "quads": [
+            [
+                "display's life",
+                "NULL",
+                "display general",
+                "negative"
+            ]
+        ],
+        "ID": 111
+    },
+    {
+        "sentence": "so android is fun for tablet features, but its like embedding an android inside, without letting android apps out to utilize the full abilities of the chromium system.",
+        "quads": [
+            [
+                "android",
+                "fun",
+                "os general",
+                "positive"
+            ],
+            [
+                "android",
+                "NULL",
+                "os general",
+                "negative"
+            ]
+        ],
+        "ID": 112
+    },
+    {
+        "sentence": "google is expecting to add that in sometime in the next year.",
+        "quads": [
+            [
+                "google",
+                "NULL",
+                "company general",
+                "neutral"
+            ]
+        ],
+        "ID": 113
+    },
+    {
+        "sentence": "i was skeptical ordering this because of the conflicting reviews.",
+        "quads": [
+            [
+                "NULL",
+                "skeptical",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 114
+    },
+    {
+        "sentence": "it keep going off on sleep mode without any way to wake it up.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "laptop operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 115
+    },
+    {
+        "sentence": "which is really sad because in the time i could actually use the chromebook i absolutely loved it.",
+        "quads": [
+            [
+                "chromebook",
+                "loved",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "chromebook",
+                "sad",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 116
+    },
+    {
+        "sentence": "i tried it, and it is very limited for the current price of $ 550.",
+        "quads": [
+            [
+                "NULL",
+                "limited",
+                "laptop operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 117
+    },
+    {
+        "sentence": "many apps aren't ` ` compatible ` ` and even the ones that work, they look awful.",
+        "quads": [
+            [
+                "apps",
+                "awful",
+                "software operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 118
+    },
+    {
+        "sentence": "another expensive & poorly executed samsung product.",
+        "quads": [
+            [
+                "samsung product",
+                "expensive",
+                "laptop price",
+                "negative"
+            ],
+            [
+                "samsung product",
+                "poorly",
+                "laptop operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 119
+    },
+    {
+        "sentence": "thankfully, this time, acer has gotten that part right.",
+        "quads": [
+            [
+                "acer",
+                "thankfully",
+                "company general",
+                "positive"
+            ]
+        ],
+        "ID": 120
+    },
+    {
+        "sentence": "things are less clear here; the toshiba again has better performance, and uses a real ssd, but it has less impressive build quality and even less impressive materials; it does offer a backlit keyboard and an even nicer screen, still the nicest of these three.",
+        "quads": [
+            [
+                "toshiba",
+                "better",
+                "laptop operation_performance",
+                "positive"
+            ],
+            [
+                "build quality",
+                "less impressive",
+                "laptop quality",
+                "negative"
+            ],
+            [
+                "screen",
+                "nicer",
+                "display general",
+                "positive"
+            ]
+        ],
+        "ID": 121
+    },
+    {
+        "sentence": "i only mention this because, in my opinion, you ' re getting about $ 300 worth of performance here; anyone telling you this device runs like a $ 500 or $ 800 computer is exaggerating.",
+        "quads": [
+            [
+                "device",
+                "exaggerating",
+                "laptop price",
+                "negative"
+            ]
+        ],
+        "ID": 122
+    },
+    {
+        "sentence": "for home users, these cheap machines fit many use cases from casual browsing and two - screening, to watching videos and calling family.",
+        "quads": [
+            [
+                "machines",
+                "cheap",
+                "laptop price",
+                "positive"
+            ],
+            [
+                "machines",
+                "NULL",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 123
+    },
+    {
+        "sentence": "as a 5 - year chromebook veteran, i ' ve been waiting for this machine.",
+        "quads": [
+            [
+                "machine",
+                "NULL",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 124
+    },
+    {
+        "sentence": "the processor on this chromebook is one of the best you can get on a chromebook at this price ( i did plenty of research ), but you start to notice a lag when you have more than 3 browsers open at once.",
+        "quads": [
+            [
+                "processor",
+                "best",
+                "cpu price",
+                "positive"
+            ],
+            [
+                "processor",
+                "NULL",
+                "cpu operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 125
+    },
+    {
+        "sentence": "but, honesty, for the intended use case of a budget chromebook ( youtube, bill paying, amazon prime watching machine ) this difference is negligible.",
+        "quads": [
+            [
+                "chromebook",
+                "negligible",
+                "laptop quality",
+                "neutral"
+            ]
+        ],
+        "ID": 126
+    },
+    {
+        "sentence": "i also don't want the power cord draped down the right side and annoying me.",
+        "quads": [
+            [
+                "power cord",
+                "annoying",
+                "power_supply design_features",
+                "negative"
+            ]
+        ],
+        "ID": 127
+    },
+    {
+        "sentence": "i was pleasantly surprised at how good it is.",
+        "quads": [
+            [
+                "NULL",
+                "pleasantly",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "NULL",
+                "good",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 128
+    },
+    {
+        "sentence": "as a windows and mac user, i wasn't sure if i could benefit from using chromeos, but i find myself using it more than i anticipated.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "os general",
+                "positive"
+            ]
+        ],
+        "ID": 129
+    },
+    {
+        "sentence": "i was extremely hesitant to buy a used macbook pro ( it's still a lot of money ) but so far am surprisingly pleased with it.",
+        "quads": [
+            [
+                "macbook pro",
+                "hesitant",
+                "laptop general",
+                "neutral"
+            ],
+            [
+                "macbook pro",
+                "pleased",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 130
+    },
+    {
+        "sentence": "- new ports that were not in the 2011 model : hdmi port, extra thunderbolt video port ( now it has two instead of one )",
+        "quads": [
+            [
+                "ports",
+                "new",
+                "ports general",
+                "positive"
+            ]
+        ],
+        "ID": 131
+    },
+    {
+        "sentence": "i had the chance to test the new radeon graphics card and it's really good.",
+        "quads": [
+            [
+                "radeon graphics card",
+                "good",
+                "graphics general",
+                "positive"
+            ]
+        ],
+        "ID": 132
+    },
+    {
+        "sentence": "honestly, i think nobody uses these ports anyway.",
+        "quads": [
+            [
+                "ports",
+                "NULL",
+                "ports general",
+                "neutral"
+            ]
+        ],
+        "ID": 133
+    },
+    {
+        "sentence": "maybe that's a consequence of how the retina display is built, but yeah, it's harder to keep the screen clean.",
+        "quads": [
+            [
+                "screen",
+                "NULL",
+                "display general",
+                "negative"
+            ]
+        ],
+        "ID": 134
+    },
+    {
+        "sentence": "i do wish the screen were bigger, but i had to go with the 13 ` ` due to budget constraints, so that's on me.",
+        "quads": [
+            [
+                "screen",
+                "NULL",
+                "display general",
+                "neutral"
+            ]
+        ],
+        "ID": 135
+    },
+    {
+        "sentence": "these macbook pro computers are expensive.",
+        "quads": [
+            [
+                "macbook pro computers",
+                "expensive",
+                "laptop price",
+                "negative"
+            ]
+        ],
+        "ID": 136
+    },
+    {
+        "sentence": "i think for others they are just buying into the brand.",
+        "quads": [
+            [
+                "brand",
+                "NULL",
+                "company general",
+                "neutral"
+            ]
+        ],
+        "ID": 137
+    },
+    {
+        "sentence": "i love the retina display.",
+        "quads": [
+            [
+                "retina display",
+                "love",
+                "display general",
+                "positive"
+            ]
+        ],
+        "ID": 138
+    },
+    {
+        "sentence": "i am extremely happy with this laptop.",
+        "quads": [
+            [
+                "laptop",
+                "happy",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 139
+    },
+    {
+        "sentence": "it doesn't effect any of the functionality, but it was a little disappointing to open the box to see a dent on something i'd just spend $ 1, 000 on.",
+        "quads": [
+            [
+                "dent",
+                "disappointing",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 140
+    },
+    {
+        "sentence": "it worked perfectly right out of the box.",
+        "quads": [
+            [
+                "NULL",
+                "perfectly",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 141
+    },
+    {
+        "sentence": "great product!",
+        "quads": [
+            [
+                "product",
+                "great",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 142
+    },
+    {
+        "sentence": "battery issues aside, i really love this laptop and it is easily the nicest piece of electronics i have ever owned.",
+        "quads": [
+            [
+                "battery",
+                "NULL",
+                "battery general",
+                "negative"
+            ],
+            [
+                "laptop",
+                "love",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 143
+    },
+    {
+        "sentence": "neat and sleek build, great display and very nice os",
+        "quads": [
+            [
+                "build",
+                "neat",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "build",
+                "sleek",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "display",
+                "great",
+                "display general",
+                "positive"
+            ],
+            [
+                "os",
+                "nice",
+                "os general",
+                "positive"
+            ]
+        ],
+        "ID": 144
+    },
+    {
+        "sentence": "the new touchpad takes a little getting used to, but otherwise it's been perfect.",
+        "quads": [
+            [
+                "touchpad",
+                "NULL",
+                "keyboard general",
+                "neutral"
+            ],
+            [
+                "NULL",
+                "perfect",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 145
+    },
+    {
+        "sentence": "the retina screen is amazing.",
+        "quads": [
+            [
+                "retina screen",
+                "amazing",
+                "display operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 146
+    },
+    {
+        "sentence": "less of a fault of the much lauded diving board and more a factor of the very well designed new hardware.",
+        "quads": [
+            [
+                "hardware",
+                "well",
+                "hardware design_features",
+                "positive"
+            ]
+        ],
+        "ID": 147
+    },
+    {
+        "sentence": "not to mention, the touchbar is just another gimmicky addition to the ` ` future of apple ` ` ( really not as effective as one would think ).",
+        "quads": [
+            [
+                "touchbar",
+                "gimmicky",
+                "keyboard general",
+                "positive"
+            ]
+        ],
+        "ID": 148
+    },
+    {
+        "sentence": "a great computer!",
+        "quads": [
+            [
+                "computer",
+                "great",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 149
+    },
+    {
+        "sentence": "battery life is a huge plus!",
+        "quads": [
+            [
+                "battery life",
+                "NULL",
+                "battery operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 150
+    },
+    {
+        "sentence": "such a nice mac",
+        "quads": [
+            [
+                "mac",
+                "nice",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 151
+    },
+    {
+        "sentence": "price was very good and met my expectations also shipping was very quick.",
+        "quads": [
+            [
+                "NULL",
+                "good",
+                "laptop price",
+                "positive"
+            ],
+            [
+                "shipping",
+                "quick",
+                "shipping general",
+                "positive"
+            ]
+        ],
+        "ID": 152
+    },
+    {
+        "sentence": "however, i have to remove one star for the very unreliable magnetic charging connector.",
+        "quads": [
+            [
+                "charging connector",
+                "NULL",
+                "power_supply design_features",
+                "negative"
+            ]
+        ],
+        "ID": 153
+    },
+    {
+        "sentence": "my first mac is awesome!",
+        "quads": [
+            [
+                "mac",
+                "awesome",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 154
+    },
+    {
+        "sentence": "it arrived on time and in excellent condition and my hubby has been happily using it now for several weeks with no problems.",
+        "quads": [
+            [
+                "NULL",
+                "excellent",
+                "shipping general",
+                "positive"
+            ],
+            [
+                "NULL",
+                "happily",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 155
+    },
+    {
+        "sentence": "this laptop has all the necessary ports.",
+        "quads": [
+            [
+                "laptop",
+                "NULL",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 156
+    },
+    {
+        "sentence": "as i bought 13 inch model, it is very portable.",
+        "quads": [
+            [
+                "model",
+                "portable",
+                "laptop portability",
+                "positive"
+            ]
+        ],
+        "ID": 157
+    },
+    {
+        "sentence": "i ' ve been extremely impressed by this device.",
+        "quads": [
+            [
+                "device",
+                "impressed",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 158
+    },
+    {
+        "sentence": "overall : i'm super happy with this product.",
+        "quads": [
+            [
+                "product",
+                "happy",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 159
+    },
+    {
+        "sentence": "it feels responsive to me, and i went to settings to customize the speed, clicking, and scrolling.",
+        "quads": [
+            [
+                "NULL",
+                "responsive",
+                "hardware operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 160
+    },
+    {
+        "sentence": "the only drawback is that it only comes with 32 gb of hard drive.",
+        "quads": [
+            [
+                "hard drive",
+                "drawback",
+                "hard_disc design_features",
+                "negative"
+            ]
+        ],
+        "ID": 161
+    },
+    {
+        "sentence": "configuring the printer was a little tricky but not bad.",
+        "quads": [
+            [
+                "printer",
+                "not bad",
+                "multimedia_devices operation_performance",
+                "neutral"
+            ]
+        ],
+        "ID": 162
+    },
+    {
+        "sentence": "my desktop runs all my video editing software for my bigger and most demanding projects and mylaptop is great for editing video and running pc games in places other than my home ( like school! )",
+        "quads": [
+            [
+                "mylaptop",
+                "great",
+                "laptop miscellaneous",
+                "positive"
+            ]
+        ],
+        "ID": 163
+    },
+    {
+        "sentence": "either they were so slow i couldn't get any work done or they just flat out broke after a couple months.",
+        "quads": [
+            [
+                "NULL",
+                "slow",
+                "laptop operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 164
+    },
+    {
+        "sentence": "this is where the r11 gets interesting.",
+        "quads": [
+            [
+                "r11",
+                "interesting",
+                "laptop usability",
+                "positive"
+            ]
+        ],
+        "ID": 165
+    },
+    {
+        "sentence": "i have not had any freezing or screen flashing issues.",
+        "quads": [
+            [
+                "screen",
+                "NULL",
+                "display operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 166
+    },
+    {
+        "sentence": "i guess i got one of the good ones as i have had no trouble at all.",
+        "quads": [
+            [
+                "NULL",
+                "good",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 167
+    },
+    {
+        "sentence": "did i mention, i can access all my word, excel, and powerpoint files using the google apps.",
+        "quads": [
+            [
+                "google apps",
+                "NULL",
+                "software usability",
+                "positive"
+            ]
+        ],
+        "ID": 168
+    },
+    {
+        "sentence": "i have had it about 4 days and have been checking out how well it runs my favorite android apps.",
+        "quads": [
+            [
+                "NULL",
+                "well",
+                "laptop operation_performance",
+                "positive"
+            ],
+            [
+                "android apps",
+                "favorite",
+                "software operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 169
+    },
+    {
+        "sentence": "unfortunately, this particular computer is 100 % unusable after only 2 years and 2 weeks.",
+        "quads": [
+            [
+                "computer",
+                "unusable",
+                "laptop usability",
+                "negative"
+            ]
+        ],
+        "ID": 170
+    },
+    {
+        "sentence": "it is a timeless design and a very respectable screen.",
+        "quads": [
+            [
+                "design",
+                "timeless",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "screen",
+                "respectable",
+                "display general",
+                "positive"
+            ]
+        ],
+        "ID": 171
+    },
+    {
+        "sentence": "i'm disappointed with macbook pro 15 \u201d because sometimes charger macbook pro 15 \u201d running overheating!",
+        "quads": [
+            [
+                "NULL",
+                "disappointed",
+                "laptop general",
+                "negative"
+            ],
+            [
+                "NULL",
+                "NULL",
+                "power_supply operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 172
+    },
+    {
+        "sentence": "apple has always priced their hardware high, but you could always make an argument for the style, nice hardware and the unique osx experience.",
+        "quads": [
+            [
+                "hardware",
+                "high",
+                "company price",
+                "negative"
+            ],
+            [
+                "NULL",
+                "NULL",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "NULL",
+                "nice",
+                "hardware general",
+                "positive"
+            ],
+            [
+                "osx",
+                "unique",
+                "os general",
+                "positive"
+            ]
+        ],
+        "ID": 173
+    },
+    {
+        "sentence": "* extremely weak graphics card.",
+        "quads": [
+            [
+                "graphics card",
+                "weak",
+                "graphics operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 174
+    },
+    {
+        "sentence": "the intel iris sucks.",
+        "quads": [
+            [
+                "intel iris",
+                "sucks",
+                "hard_disc operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 175
+    },
+    {
+        "sentence": "i can't use my printer because it's not supported.",
+        "quads": [
+            [
+                "printer",
+                "NULL",
+                "ports usability",
+                "negative"
+            ]
+        ],
+        "ID": 176
+    },
+    {
+        "sentence": "usb port go dead until i do a restart.",
+        "quads": [
+            [
+                "usb port",
+                "NULL",
+                "ports operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 177
+    },
+    {
+        "sentence": "now i'm just down to some gripes that are probably here to stay : the bluetooth on this thing is really fussy, the non - functional video output ( using usb - c video out through an hdmi cable sends just a blank desktop background and no audio, even if i am playing a movie or youtube visibly on the c302 screen ), and that it can't hold a vpn connection without dropping it every 20 - 30 minutes.",
+        "quads": [
+            [
+                "bluetooth",
+                "fussy",
+                "hardware operation_performance",
+                "negative"
+            ],
+            [
+                "NULL",
+                "NULL",
+                "laptop connectivity",
+                "negative"
+            ]
+        ],
+        "ID": 178
+    },
+    {
+        "sentence": "sometimes they felt a bit half - baked, but i loved the idea, and the keyboard made a world of difference in what you could do with that tablet.",
+        "quads": [
+            [
+                "NULL",
+                "loved",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "keyboard",
+                "NULL",
+                "keyboard general",
+                "positive"
+            ]
+        ],
+        "ID": 179
+    },
+    {
+        "sentence": "- good screen.",
+        "quads": [
+            [
+                "screen",
+                "good",
+                "display general",
+                "positive"
+            ]
+        ],
+        "ID": 180
+    },
+    {
+        "sentence": "this seems to be a somewhat common issue with chromebooks but this asus model doesn't have a way to preform an external reset, which is a big problem if you ' ve setup any personal info on it and it has to be sent back.",
+        "quads": [
+            [
+                "asus model",
+                "NULL",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 181
+    },
+    {
+        "sentence": "the funny part is that the customer service people have been great but they have no control to take care of problems.",
+        "quads": [
+            [
+                "customer service",
+                "great",
+                "support general",
+                "positive"
+            ]
+        ],
+        "ID": 182
+    },
+    {
+        "sentence": "all metal body, very slim form factor, and has a pretty decent touchscreen.",
+        "quads": [
+            [
+                "factor",
+                "slim",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "touchscreen",
+                "decent",
+                "display general",
+                "positive"
+            ]
+        ],
+        "ID": 183
+    },
+    {
+        "sentence": "as others have already reported, the headphone jack produces extremely weak volume, even at max.",
+        "quads": [
+            [
+                "headphone jack",
+                "NULL",
+                "multimedia_devices operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 184
+    },
+    {
+        "sentence": "anyhow, within a week, the speakers started crackling annoyingly when watching videos, or playing games.",
+        "quads": [
+            [
+                "speakers",
+                "annoyingly",
+                "multimedia_devices operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 185
+    },
+    {
+        "sentence": "unlike other asus laptops i ' ve tried, this unit won the display roulette.",
+        "quads": [
+            [
+                "unit",
+                "NULL",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 186
+    },
+    {
+        "sentence": "the native chrome os media player would play the files from the drive but had very limited playback capabilities, i could not get it to ` ` play all ` `, only repeat one, suffice to say i was frustrated at that point and did not feel like googling how to make a media player do what others ` ` just do ` `.",
+        "quads": [
+            [
+                "native chrome os media player",
+                "frustrated",
+                "software operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 187
+    },
+    {
+        "sentence": "i like the security built in.",
+        "quads": [
+            [
+                "NULL",
+                "like",
+                "software general",
+                "positive"
+            ]
+        ],
+        "ID": 188
+    },
+    {
+        "sentence": "if i had it to do over, i would not purchase this computer.",
+        "quads": [
+            [
+                "computer",
+                "NULL",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 189
+    },
+    {
+        "sentence": "the first issue is that the speakers are on either side of the computer, and you can barely hear them on max volume.",
+        "quads": [
+            [
+                "speakers",
+                "NULL",
+                "multimedia_devices design_features",
+                "negative"
+            ]
+        ],
+        "ID": 190
+    },
+    {
+        "sentence": "it also had charging problems and got terrible warranty support.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "power_supply general",
+                "negative"
+            ],
+            [
+                "warranty support",
+                "terrible",
+                "warranty general",
+                "negative"
+            ]
+        ],
+        "ID": 191
+    },
+    {
+        "sentence": "i got the same failure to charge issue that others have reported.",
+        "quads": [
+            [
+                "charge",
+                "NULL",
+                "power_supply general",
+                "negative"
+            ]
+        ],
+        "ID": 192
+    },
+    {
+        "sentence": "if bluetooth devices worked with this chromebook it would get 5 stars, but this is the least reliable device in regards to bluetooth i have ever owned.",
+        "quads": [
+            [
+                "chromebook",
+                "NULL",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 193
+    },
+    {
+        "sentence": "i feel like i bought a decent machine but it's unable to handle the ram workload.",
+        "quads": [
+            [
+                "machine",
+                "decent",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "machine",
+                "NULL",
+                "laptop operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 194
+    },
+    {
+        "sentence": "i don't think that i was adequately prepared for how dark the screen is at its highest brightness in comparison to other devices.",
+        "quads": [
+            [
+                "screen",
+                "NULL",
+                "display design_features",
+                "negative"
+            ]
+        ],
+        "ID": 195
+    },
+    {
+        "sentence": "don't get me wrong, the device flips back and forth very well.",
+        "quads": [
+            [
+                "device",
+                "well",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 196
+    },
+    {
+        "sentence": "was initially impressed by design but after normal use without any rough handling or dropping of the chromebook, the metal corner tip covering the lcd peels off & warps / bends upwards!",
+        "quads": [
+            [
+                "metal corner tip",
+                "NULL",
+                "hardware quality",
+                "negative"
+            ]
+        ],
+        "ID": 197
+    },
+    {
+        "sentence": "to say i'm disappointed in this chromebook would be an understatement.",
+        "quads": [
+            [
+                "chromebook",
+                "disappointed",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 198
+    },
+    {
+        "sentence": "this computer is really hard to use.",
+        "quads": [
+            [
+                "computer",
+                "hard",
+                "laptop usability",
+                "negative"
+            ]
+        ],
+        "ID": 199
+    },
+    {
+        "sentence": "it's their policy to only repair not replace.",
+        "quads": [
+            [
+                "policy",
+                "NULL",
+                "support quality",
+                "negative"
+            ]
+        ],
+        "ID": 200
+    },
+    {
+        "sentence": "+ comfortable keyboard",
+        "quads": [
+            [
+                "keyboard",
+                "comfortable",
+                "keyboard design_features",
+                "positive"
+            ]
+        ],
+        "ID": 201
+    },
+    {
+        "sentence": "other than this, it's a decent product.",
+        "quads": [
+            [
+                "product",
+                "decent",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 202
+    },
+    {
+        "sentence": "decent enough build, but the mouse pad is terrible.",
+        "quads": [
+            [
+                "build",
+                "decent",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "mouse pad",
+                "terrible",
+                "keyboard general",
+                "negative"
+            ]
+        ],
+        "ID": 203
+    },
+    {
+        "sentence": "games / video apps perform absolutely awfully.",
+        "quads": [
+            [
+                "games / video apps",
+                "awfully",
+                "software operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 204
+    },
+    {
+        "sentence": "the machine's visible design itself was fine.",
+        "quads": [
+            [
+                "machine",
+                "fine",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 205
+    },
+    {
+        "sentence": "after one charge, the battery would not take charge.",
+        "quads": [
+            [
+                "battery",
+                "NULL",
+                "battery operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 206
+    },
+    {
+        "sentence": "it will not power on anymore after 2 mos of daily use - 4 hours per day.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "laptop operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 207
+    },
+    {
+        "sentence": "i went through two of them, both came with sharp edges that made them dangerous and uncomfortable to use.",
+        "quads": [
+            [
+                "NULL",
+                "dangerous",
+                "laptop design_features",
+                "negative"
+            ],
+            [
+                "NULL",
+                "uncomfortable",
+                "laptop design_features",
+                "negative"
+            ]
+        ],
+        "ID": 208
+    },
+    {
+        "sentence": "i really liked it when i first got it, it performs very well and the software is very easy to use.",
+        "quads": [
+            [
+                "NULL",
+                "well",
+                "laptop operation_performance",
+                "positive"
+            ],
+            [
+                "software",
+                "easy",
+                "software usability",
+                "positive"
+            ]
+        ],
+        "ID": 209
+    },
+    {
+        "sentence": "using wifi the signal seems to drop, not sure if the wifi adapter needs an update but there are issues.",
+        "quads": [
+            [
+                "wifi",
+                "NULL",
+                "out_of_scope operation_performance",
+                "negative"
+            ],
+            [
+                "wifi adapter",
+                "NULL",
+                "software operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 210
+    },
+    {
+        "sentence": "first, the factory default driver configuration of this thing is unstable, which makes installing a correct configuration more difficult.",
+        "quads": [
+            [
+                "factory default driver",
+                "unstable",
+                "software operation_performance",
+                "negative"
+            ],
+            [
+                "factory default driver",
+                "difficult",
+                "software operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 211
+    },
+    {
+        "sentence": "the mouse pad is very touchy, but i use a separate bluetooth mouse anyways.",
+        "quads": [
+            [
+                "mouse pad",
+                "touchy",
+                "hardware operation_performance",
+                "neutral"
+            ]
+        ],
+        "ID": 212
+    },
+    {
+        "sentence": "i didn't even call for tech help because a brand new laptop should not be giving me such a headache.",
+        "quads": [
+            [
+                "brand new laptop",
+                "headache",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 213
+    },
+    {
+        "sentence": "the laptop its - self is great and is made of good build quality.",
+        "quads": [
+            [
+                "laptop",
+                "great",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "build quality",
+                "good",
+                "laptop quality",
+                "positive"
+            ]
+        ],
+        "ID": 214
+    },
+    {
+        "sentence": "beautiful screen.",
+        "quads": [
+            [
+                "screen",
+                "beautiful",
+                "display general",
+                "positive"
+            ]
+        ],
+        "ID": 215
+    },
+    {
+        "sentence": "monitor screen is ok, sometimes the contrast is poor but looks better in games.",
+        "quads": [
+            [
+                "monitor screen",
+                "ok",
+                "display operation_performance",
+                "neutral"
+            ],
+            [
+                "contrast",
+                "poor",
+                "display operation_performance",
+                "negative"
+            ],
+            [
+                "contrast",
+                "better",
+                "display operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 216
+    },
+    {
+        "sentence": "the laptop now doesn't even function without needing a full factory reset every 3 hours.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "laptop operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 217
+    },
+    {
+        "sentence": "if i had it to do over again, i would not buy this pc.",
+        "quads": [
+            [
+                "pc",
+                "NULL",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 218
+    },
+    {
+        "sentence": "i would * not * recommend this laptop.",
+        "quads": [
+            [
+                "laptop",
+                "* not * recommend",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 219
+    },
+    {
+        "sentence": "this is the absolute worst laptop i have ever owned.",
+        "quads": [
+            [
+                "laptop",
+                "worst",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 220
+    },
+    {
+        "sentence": "now, i have been stressed with fixing this laptop since every day has been something new that i need to fix with it.",
+        "quads": [
+            [
+                "laptop",
+                "NULL",
+                "laptop operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 221
+    },
+    {
+        "sentence": "the overall material the laptop is made of feels incredibly cheap.",
+        "quads": [
+            [
+                "overall material the laptop",
+                "cheap",
+                "laptop design_features",
+                "negative"
+            ]
+        ],
+        "ID": 222
+    },
+    {
+        "sentence": "don't waste your money on this computer, it will disapoint you in every way possible.",
+        "quads": [
+            [
+                "computer",
+                "disapoint",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 223
+    },
+    {
+        "sentence": "the laptop was dead on arrival.",
+        "quads": [
+            [
+                "laptop",
+                "dead",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 224
+    },
+    {
+        "sentence": "it is not a very stable build at all.",
+        "quads": [
+            [
+                "NULL",
+                "not a very stable",
+                "laptop design_features",
+                "negative"
+            ]
+        ],
+        "ID": 225
+    },
+    {
+        "sentence": "i have had this laptop two months now and it has crashed as many times.",
+        "quads": [
+            [
+                "laptop",
+                "crashed",
+                "laptop operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 226
+    },
+    {
+        "sentence": "this is the worst laptop i have ever bought in my entire life.",
+        "quads": [
+            [
+                "laptop",
+                "worst",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 227
+    },
+    {
+        "sentence": "this laptop is small and thin for a 15.",
+        "quads": [
+            [
+                "laptop",
+                "small",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "laptop",
+                "thin",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 228
+    },
+    {
+        "sentence": "- keyboard is not that good, i fell that there is uneven uniformity in the button press and travel, and definitely some flex.",
+        "quads": [
+            [
+                "keyboard",
+                "not that good",
+                "keyboard usability",
+                "negative"
+            ]
+        ],
+        "ID": 229
+    },
+    {
+        "sentence": "battery life doesn't seem to be more than 5 hours, but i expected that going in.",
+        "quads": [
+            [
+                "battery life",
+                "NULL",
+                "battery quality",
+                "neutral"
+            ]
+        ],
+        "ID": 230
+    },
+    {
+        "sentence": "battery charger is super tiny and lightweight, which is an additional advantage vs the 1 lb brick that you have to lug around with the ux501vw.",
+        "quads": [
+            [
+                "battery charger",
+                "tiny",
+                "power_supply design_features",
+                "positive"
+            ],
+            [
+                "battery charger",
+                "lightweight",
+                "power_supply design_features",
+                "positive"
+            ]
+        ],
+        "ID": 231
+    },
+    {
+        "sentence": "i just opened it earlier today and my initial impressions is that it is very attractive and very sturdy feeling and i love the screen which non reflective, it's very nice not looking into a reflective glossy screen for a change.",
+        "quads": [
+            [
+                "NULL",
+                "attractive",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "NULL",
+                "sturdy",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 232
+    },
+    {
+        "sentence": "most of the laptop is actually very good, but is held back by a 5400 rpm hdd.",
+        "quads": [
+            [
+                "laptop",
+                "good",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "5400 rpm hdd",
+                "NULL",
+                "hard_disc general",
+                "positive"
+            ]
+        ],
+        "ID": 233
+    },
+    {
+        "sentence": "other than that its components are actually very good.",
+        "quads": [
+            [
+                "components",
+                "good",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 234
+    },
+    {
+        "sentence": "disadvantage of amazon seller, it was delivered to my usps not my home.",
+        "quads": [
+            [
+                "amazon seller",
+                "disadvantage",
+                "shipping quality",
+                "negative"
+            ]
+        ],
+        "ID": 235
+    },
+    {
+        "sentence": "the screen looks amazing, ips it seems.",
+        "quads": [
+            [
+                "screen",
+                "amazing",
+                "display design_features",
+                "positive"
+            ]
+        ],
+        "ID": 236
+    },
+    {
+        "sentence": "loving the laptop.",
+        "quads": [
+            [
+                "laptop",
+                "loving",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 237
+    },
+    {
+        "sentence": "it's light weight, sleek, the screen resolution is great and it runs very well for everyday use.",
+        "quads": [
+            [
+                "NULL",
+                "light",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "NULL",
+                "sleek",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "screen resolution",
+                "great",
+                "display general",
+                "positive"
+            ],
+            [
+                "NULL",
+                "well",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 238
+    },
+    {
+        "sentence": "it charges very fast; from near dead to full in less than an hour.",
+        "quads": [
+            [
+                "NULL",
+                "fast",
+                "power_supply operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 239
+    },
+    {
+        "sentence": "i got this laptop for school and it is simply amazing.",
+        "quads": [
+            [
+                "laptop",
+                "amazing",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 240
+    },
+    {
+        "sentence": "moreover, the 8th gen i5 cpu is amazing.",
+        "quads": [
+            [
+                "8th gen i5 cpu",
+                "amazing",
+                "cpu general",
+                "positive"
+            ]
+        ],
+        "ID": 241
+    },
+    {
+        "sentence": "this has been a very light convenient laptop for me.",
+        "quads": [
+            [
+                "laptop",
+                "light",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "laptop",
+                "convenient",
+                "laptop usability",
+                "positive"
+            ]
+        ],
+        "ID": 242
+    },
+    {
+        "sentence": "i have no issues with using the internal hard drive, it works fast enough for me when loading up my software and music.",
+        "quads": [
+            [
+                "internal hard drive",
+                "fast",
+                "hard_disc operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 243
+    },
+    {
+        "sentence": "this little vivo had the speed / storage that we need, the materials feel substantial instead of cheap.",
+        "quads": [
+            [
+                "vivo",
+                "NULL",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "materials",
+                "substantial",
+                "laptop quality",
+                "positive"
+            ],
+            [
+                "materials",
+                "instead of cheap",
+                "laptop quality",
+                "positive"
+            ]
+        ],
+        "ID": 244
+    },
+    {
+        "sentence": "i'm not a computer nerd but for a joe punch clock this is nice",
+        "quads": [
+            [
+                "this",
+                "nice",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 245
+    },
+    {
+        "sentence": "on it's own, it performance great!",
+        "quads": [
+            [
+                "NULL",
+                "great",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 246
+    },
+    {
+        "sentence": "love the form factor and the light weight as i often use my laptop while laying down.",
+        "quads": [
+            [
+                "my laptop",
+                "love",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "my laptop",
+                "light",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 247
+    },
+    {
+        "sentence": "opening it was a little hard but once opened, it's easy to add the ram or ssd.",
+        "quads": [
+            [
+                "NULL",
+                "easy",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 248
+    },
+    {
+        "sentence": "less than that, for me, the screen looks dull.",
+        "quads": [
+            [
+                "screen",
+                "dull",
+                "display quality",
+                "negative"
+            ]
+        ],
+        "ID": 249
+    },
+    {
+        "sentence": "if you ' re mainly on youtube or reading stuff online, this chromebook functions well for that purpose.",
+        "quads": [
+            [
+                "chromebook",
+                "well",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 250
+    },
+    {
+        "sentence": "the laptop was shipped in what looked like a new case but upon opening it, it appeared used and repackaged.",
+        "quads": [
+            [
+                "laptop",
+                "NULL",
+                "shipping quality",
+                "negative"
+            ]
+        ],
+        "ID": 251
+    },
+    {
+        "sentence": "freezes with red lines across it, froze five times the first afternoon.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "laptop operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 252
+    },
+    {
+        "sentence": "had problems with my acer chromebook from the very start.",
+        "quads": [
+            [
+                "acer chromebook",
+                "NULL",
+                "laptop operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 253
+    },
+    {
+        "sentence": "every few weeks the system locks up and freezes.",
+        "quads": [
+            [
+                "system",
+                "NULL",
+                "os operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 254
+    },
+    {
+        "sentence": "looks like the hdmi port may be defective or something - - another reviewer had a similar problem.",
+        "quads": [
+            [
+                "hdmi port",
+                "defective",
+                "ports operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 255
+    },
+    {
+        "sentence": "before the review this package has nice presentation and solid build.",
+        "quads": [
+            [
+                "package",
+                "nice",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "build",
+                "solid",
+                "laptop quality",
+                "positive"
+            ]
+        ],
+        "ID": 256
+    },
+    {
+        "sentence": "( good ) as for the laptop ( when it worked, and i mean for the whole 30 minutes ) it was extremely fast.",
+        "quads": [
+            [
+                "laptop",
+                "good",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "laptop",
+                "fast",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 257
+    },
+    {
+        "sentence": "adequate screen.",
+        "quads": [
+            [
+                "screen",
+                "adequate",
+                "display general",
+                "positive"
+            ]
+        ],
+        "ID": 258
+    },
+    {
+        "sentence": "it ` ` feels ` ` solid.",
+        "quads": [
+            [
+                "NULL",
+                "solid",
+                "laptop quality",
+                "positive"
+            ]
+        ],
+        "ID": 259
+    },
+    {
+        "sentence": "the product looks reasonable at this price range.",
+        "quads": [
+            [
+                "product",
+                "reasonable",
+                "laptop price",
+                "positive"
+            ]
+        ],
+        "ID": 260
+    },
+    {
+        "sentence": "i ' ve only had the computer for a little over a month, that is annoying on many levels.",
+        "quads": [
+            [
+                "computer",
+                "annoying",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 261
+    },
+    {
+        "sentence": "the manufacturer was not helpful in trying to resolve this issue.",
+        "quads": [
+            [
+                "manufacturer",
+                "not helpful",
+                "support general",
+                "negative"
+            ]
+        ],
+        "ID": 262
+    },
+    {
+        "sentence": "having ram problems after 1.",
+        "quads": [
+            [
+                "ram",
+                "NULL",
+                "hard_disc general",
+                "negative"
+            ]
+        ],
+        "ID": 263
+    },
+    {
+        "sentence": "i ' ve been able to play fortnite on this laptop, medium settings, with no issues or lag / stutter.",
+        "quads": [
+            [
+                "laptop",
+                "NULL",
+                "laptop operation_performance",
+                "neutral"
+            ]
+        ],
+        "ID": 264
+    },
+    {
+        "sentence": "unfortunately i was never able to complete this task, because after booting the laptop it suddenly shut - off on me and wouldn't turn back on again.",
+        "quads": [
+            [
+                "laptop",
+                "NULL",
+                "laptop operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 265
+    },
+    {
+        "sentence": "the wall power adapter charger is not working and then later caught fire.",
+        "quads": [
+            [
+                "wall power adapter charger",
+                "NULL",
+                "power_supply operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 266
+    },
+    {
+        "sentence": "i'm extremely disappointed with the performance of this laptop.",
+        "quads": [
+            [
+                "laptop",
+                "disappointed",
+                "laptop operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 267
+    },
+    {
+        "sentence": "there are several traps inside and outside of laptop.",
+        "quads": [
+            [
+                "laptop",
+                "NULL",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 268
+    },
+    {
+        "sentence": "keyboard is not good.",
+        "quads": [
+            [
+                "keyboard",
+                "not good",
+                "keyboard general",
+                "negative"
+            ]
+        ],
+        "ID": 269
+    },
+    {
+        "sentence": "- sleek and nice texture on lid",
+        "quads": [
+            [
+                "lid",
+                "sleek",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "lid",
+                "nice",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 270
+    },
+    {
+        "sentence": "one of the keys is especially flimsy and feels like it could break at any moment.",
+        "quads": [
+            [
+                "one of the keys",
+                "flimsy",
+                "keyboard quality",
+                "negative"
+            ]
+        ],
+        "ID": 271
+    },
+    {
+        "sentence": "it gets what you need done.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 272
+    },
+    {
+        "sentence": "if you plan on buying this beware that your patience may run thin.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "laptop general",
+                "negative"
+            ]
+        ],
+        "ID": 273
+    },
+    {
+        "sentence": "machine is totally unusable during the update.",
+        "quads": [
+            [
+                "machine",
+                "unusable",
+                "laptop operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 274
+    },
+    {
+        "sentence": "i received the item after 18 days of ordering.",
+        "quads": [
+            [
+                "item",
+                "NULL",
+                "shipping general",
+                "negative"
+            ]
+        ],
+        "ID": 275
+    },
+    {
+        "sentence": "gamers, do not fool yourself with the fancy ` ` intel i5, 8th generation ` `, nothing can fix an incompetent hard drive, that 8gb ram is worth nothing.",
+        "quads": [
+            [
+                "intel i5",
+                "fancy",
+                "cpu general",
+                "positive"
+            ],
+            [
+                "hard drive",
+                "incompetent",
+                "hard_disc operation_performance",
+                "negative"
+            ],
+            [
+                "ram",
+                "worth nothing",
+                "memory general",
+                "negative"
+            ]
+        ],
+        "ID": 276
+    },
+    {
+        "sentence": "asus has really set a new standard with the c302ca's internals and physical design.",
+        "quads": [
+            [
+                "asus",
+                "NULL",
+                "company design_features",
+                "positive"
+            ],
+            [
+                "c302ca's internals",
+                "NULL",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "physical design",
+                "NULL",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 277
+    },
+    {
+        "sentence": "similarly the task tray area of the main task bar is on the small side and lends itself to fat - fingering.",
+        "quads": [
+            [
+                "task tray area",
+                "NULL",
+                "software design_features",
+                "negative"
+            ]
+        ],
+        "ID": 278
+    },
+    {
+        "sentence": "one of the features of chromeos that i find very convenient is the way in which all of your configuration settings are stored in the cloud with your gmail account.",
+        "quads": [
+            [
+                "chromeos",
+                "convenient",
+                "os design_features",
+                "positive"
+            ]
+        ],
+        "ID": 279
+    },
+    {
+        "sentence": "a big part of this device is its gorgeous aesthetic.",
+        "quads": [
+            [
+                "device",
+                "gorgeous",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "device",
+                "aesthetic",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 280
+    },
+    {
+        "sentence": "this is a great device and the $ 450 asking price seems fair.",
+        "quads": [
+            [
+                "device",
+                "great",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "device",
+                "fair",
+                "laptop price",
+                "neutral"
+            ]
+        ],
+        "ID": 281
+    },
+    {
+        "sentence": "this computer was 10 fold what i had expected.",
+        "quads": [
+            [
+                "computer",
+                "NULL",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 282
+    },
+    {
+        "sentence": "i'm usually peaked with ram ( ~ 95 % ) which is good because it's better used than not used.",
+        "quads": [
+            [
+                "ram",
+                "good",
+                "memory operation_performance",
+                "positive"
+            ],
+            [
+                "ram",
+                "better",
+                "memory operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 283
+    },
+    {
+        "sentence": "but it is a bit big and heavy.",
+        "quads": [
+            [
+                "NULL",
+                "big",
+                "laptop design_features",
+                "negative"
+            ],
+            [
+                "NULL",
+                "heavy",
+                "laptop design_features",
+                "negative"
+            ]
+        ],
+        "ID": 284
+    },
+    {
+        "sentence": "quality is excellent so far, and the software / hardware combination works like they were made for each other ( which is what you want : ) )",
+        "quads": [
+            [
+                "quality",
+                "excellent",
+                "laptop quality",
+                "positive"
+            ],
+            [
+                "software",
+                "NULL",
+                "software operation_performance",
+                "positive"
+            ],
+            [
+                "hardware",
+                "NULL",
+                "hardware operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 285
+    },
+    {
+        "sentence": "after a week of use, i can safely say it is the most impressive chromebook i have used to - date.",
+        "quads": [
+            [
+                "chromebook",
+                "impressive",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 286
+    },
+    {
+        "sentence": "at the moment, it is everything it was advertised to be.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 287
+    },
+    {
+        "sentence": "the screen is really amazing and you can easily change it to 1080p with no issues ( it's set lower out of the box ).",
+        "quads": [
+            [
+                "screen",
+                "amazing",
+                "display general",
+                "positive"
+            ]
+        ],
+        "ID": 288
+    },
+    {
+        "sentence": "it's sturdy, and looks and feels great.",
+        "quads": [
+            [
+                "NULL",
+                "sturdy",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "NULL",
+                "great",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 289
+    },
+    {
+        "sentence": "update : the c302 now supports google play store services on the stable channel.",
+        "quads": [
+            [
+                "c302",
+                "NULL",
+                "support general",
+                "neutral"
+            ]
+        ],
+        "ID": 290
+    },
+    {
+        "sentence": "love this chromebook!",
+        "quads": [
+            [
+                "chromebook",
+                "love",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 291
+    },
+    {
+        "sentence": "the screen is plenty bright, and the sound from the speakers is fine for a laptop ( you won't be filling a room with sound ).",
+        "quads": [
+            [
+                "sound",
+                "fine",
+                "multimedia_devices operation_performance",
+                "positive"
+            ],
+            [
+                "speakers",
+                "fine",
+                "multimedia_devices operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 292
+    },
+    {
+        "sentence": "love the backlit keyboard.",
+        "quads": [
+            [
+                "backlit keyboard",
+                "love",
+                "keyboard general",
+                "positive"
+            ]
+        ],
+        "ID": 293
+    },
+    {
+        "sentence": "can get pretty warm running an intensive android app for a while.",
+        "quads": [
+            [
+                "android app",
+                "warm",
+                "laptop quality",
+                "negative"
+            ]
+        ],
+        "ID": 294
+    },
+    {
+        "sentence": "at least the volume through bluetooth was tolerable.",
+        "quads": [
+            [
+                "volume through bluetooth",
+                "tolerable",
+                "multimedia_devices operation_performance",
+                "neutral"
+            ]
+        ],
+        "ID": 295
+    },
+    {
+        "sentence": "this works great.",
+        "quads": [
+            [
+                "NULL",
+                "great",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 296
+    },
+    {
+        "sentence": "after two years, or almost, the worst thing about this machine is lack of printer support.",
+        "quads": [
+            [
+                "machine",
+                "worst",
+                "laptop design_features",
+                "negative"
+            ]
+        ],
+        "ID": 297
+    },
+    {
+        "sentence": "setup was fast and easy, but then again i ' ve been a gmail / gcal / gdocs purist for a while now.",
+        "quads": [
+            [
+                "setup",
+                "fast",
+                "laptop usability",
+                "positive"
+            ],
+            [
+                "setup",
+                "easy",
+                "laptop usability",
+                "positive"
+            ]
+        ],
+        "ID": 298
+    },
+    {
+        "sentence": "it has exceeded my expectations for performance, functionality and utility.",
+        "quads": [
+            [
+                "NULL",
+                "NULL",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 299
+    },
+    {
+        "sentence": "in general, it has the look and feel of a premium laptop that is at home in any situation such as sitting down with a client.",
+        "quads": [
+            [
+                "laptop",
+                "premium",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 300
+    },
+    {
+        "sentence": "battery life is outstanding.",
+        "quads": [
+            [
+                "battery life",
+                "outstanding",
+                "battery general",
+                "positive"
+            ]
+        ],
+        "ID": 301
+    },
+    {
+        "sentence": "this is my third chromebook and easily the best i ' ve encountered.",
+        "quads": [
+            [
+                "chromebook",
+                "best",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 302
+    },
+    {
+        "sentence": "very expensive for what you get.",
+        "quads": [
+            [
+                "NULL",
+                "expensive",
+                "laptop price",
+                "negative"
+            ]
+        ],
+        "ID": 303
+    },
+    {
+        "sentence": "it's lighter, good construction, chromebook works perfectly and downloaded 10 different apps i normally use for free.",
+        "quads": [
+            [
+                "NULL",
+                "lighter",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "construction",
+                "good",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "chromebook",
+                "perfectly",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 304
+    },
+    {
+        "sentence": "battery life is also solid.",
+        "quads": [
+            [
+                "battery life",
+                "solid",
+                "battery operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 305
+    },
+    {
+        "sentence": "construction looks and feels great.",
+        "quads": [
+            [
+                "construction",
+                "great",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 306
+    },
+    {
+        "sentence": "on the other hand my least favorite feature is the track pad.",
+        "quads": [
+            [
+                "track pad",
+                "least favorite",
+                "hardware general",
+                "negative"
+            ]
+        ],
+        "ID": 307
+    },
+    {
+        "sentence": "nice screen.",
+        "quads": [
+            [
+                "screen",
+                "nice",
+                "display general",
+                "positive"
+            ]
+        ],
+        "ID": 308
+    },
+    {
+        "sentence": "i am a mac person in every other way, but i love this chromebook!",
+        "quads": [
+            [
+                "chromebook",
+                "love",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 309
+    },
+    {
+        "sentence": "easy set up, nice picture, responsive mouse pad, very lightweight, etc.",
+        "quads": [
+            [
+                "set up",
+                "easy",
+                "laptop operation_performance",
+                "positive"
+            ],
+            [
+                "mouse pad",
+                "responsive",
+                "keyboard operation_performance",
+                "positive"
+            ],
+            [
+                "NULL",
+                "lightweight",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 310
+    },
+    {
+        "sentence": "i love the keyboard, trackpad and screen.",
+        "quads": [
+            [
+                "keyboard",
+                "love",
+                "keyboard general",
+                "positive"
+            ],
+            [
+                "trackpad",
+                "love",
+                "keyboard general",
+                "positive"
+            ],
+            [
+                "screen",
+                "love",
+                "display general",
+                "positive"
+            ]
+        ],
+        "ID": 311
+    },
+    {
+        "sentence": "the speakers are super clear and get loud enough, but obviously lack bass.",
+        "quads": [
+            [
+                "speakers",
+                "clear",
+                "multimedia_devices operation_performance",
+                "positive"
+            ],
+            [
+                "speakers",
+                "loud",
+                "multimedia_devices operation_performance",
+                "positive"
+            ],
+            [
+                "speakers",
+                "NULL",
+                "multimedia_devices operation_performance",
+                "negative"
+            ]
+        ],
+        "ID": 312
+    },
+    {
+        "sentence": "the build quality seems very good.",
+        "quads": [
+            [
+                "build quality",
+                "good",
+                "laptop quality",
+                "positive"
+            ]
+        ],
+        "ID": 313
+    },
+    {
+        "sentence": "for ~ $ 400, i'm happy with this product after a couple months.",
+        "quads": [
+            [
+                "product",
+                "happy",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 314
+    },
+    {
+        "sentence": "it's fast and the screen is nice.",
+        "quads": [
+            [
+                "NULL",
+                "fast",
+                "laptop operation_performance",
+                "positive"
+            ],
+            [
+                "screen",
+                "nice",
+                "display general",
+                "positive"
+            ]
+        ],
+        "ID": 315
+    },
+    {
+        "sentence": "overall i like its slim design and feather light - weight alone with well equipped spec that can meet my daily work environment.",
+        "quads": [
+            [
+                "design",
+                "like",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "design",
+                "slim",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "design",
+                "light - weight",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "spec",
+                "well",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 316
+    },
+    {
+        "sentence": "i'm four months into owning this lean, mean, little machine.",
+        "quads": [
+            [
+                "machine",
+                "lean",
+                "laptop design_features",
+                "positive"
+            ],
+            [
+                "machine",
+                "mean",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 317
+    },
+    {
+        "sentence": "i ' ve already recommended or bought this for 4 others.",
+        "quads": [
+            [
+                "NULL",
+                "recommended",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 318
+    },
+    {
+        "sentence": "the best laptop i have ever owned.",
+        "quads": [
+            [
+                "laptop",
+                "best",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 319
+    },
+    {
+        "sentence": "this chromebook looks and feels great, performs even better and will soon support google play apps.",
+        "quads": [
+            [
+                "chromebook",
+                "great",
+                "laptop general",
+                "positive"
+            ],
+            [
+                "chromebook",
+                "better",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 320
+    },
+    {
+        "sentence": "it works perfectly and feels very tight but it is something i noticed.",
+        "quads": [
+            [
+                "NULL",
+                "perfectly",
+                "laptop operation_performance",
+                "positive"
+            ],
+            [
+                "NULL",
+                "tight",
+                "laptop operation_performance",
+                "positive"
+            ]
+        ],
+        "ID": 321
+    },
+    {
+        "sentence": "this is a very nice chromebook.",
+        "quads": [
+            [
+                "chromebook",
+                "nice",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 322
+    },
+    {
+        "sentence": "this is my second asus product, and i have been very happy with both.",
+        "quads": [
+            [
+                "asus product",
+                "happy",
+                "laptop general",
+                "positive"
+            ]
+        ],
+        "ID": 323
+    },
+    {
+        "sentence": "i loved the tablet transition to it.",
+        "quads": [
+            [
+                "tablet transition",
+                "loved",
+                "laptop design_features",
+                "positive"
+            ]
+        ],
+        "ID": 324
+    },
+    {
+        "sentence": "cons : no usb ports.",
+        "quads": [
+            [
+                "usb ports",
+                "cons",
+                "ports design_features",
+                "negative"
+            ]
+        ],
+        "ID": 325
+    }
+]
