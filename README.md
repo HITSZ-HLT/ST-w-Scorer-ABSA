@@ -103,4 +103,21 @@ ASQP任务的关键挑战是标记数据的不足，这限制了现有模型的�
 注意
 - 打分器对最终的性能有重要的影响，调整其训练参数（lr, alpha, batch\_size）是必要的。
 - 伪标注之前，需要先解压`/code/data/raw`下的文件。
-- 已经过滤好的伪标注数据在`/code/data/self-training`中。
+- 已经过滤好的伪标注数据在`/code/data/self\_training`中。
+
+## 引用我们
+
+    @inproceedings{zhang-etal-2023-spt-absa,  
+        title = "Self-Training with Pseudo-Label Scorer for Aspect Sentiment Quad Prediction",  
+        author = "Zhang, Yice  and  
+          Zeng, Jie  and  
+          Hu, Weiming  and  
+          Wang, Ziyi  and  
+          Chen, Shiwei  and
+          Xu, Ruifeng",  
+          booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+          month = August,  
+          year = "2024",  
+          address = "Bangkok, Thailand",  
+          publisher = "Association for Computational Linguistics",  
+    }  
