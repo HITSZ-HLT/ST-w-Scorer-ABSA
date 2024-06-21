@@ -1,3 +1,5 @@
+[**中文说明**](https://github.com/HITSZ-HLT/ST-w-Scorer-ABSA/) | [**English**](https://github.com/HITSZ-HLT/ST-w-Scorer-ABSA/blob/master/README_EN.md)
+
 # ST-w-Scorer-ABSA
 
 本仓库开源了以下论文的代码：
@@ -6,6 +8,47 @@
 - 作者：Yice Zhang, Jie Zeng#, Weiming Hu#, Ziyi Wang#, Shiwei Chen, Ruifeng Xu*
 - 会议：ACL-2024 Main (Long)
 
-## Note
-- Paper会在2024年6月5日前上传至本仓库。
-- Code和data会在2024年6月21日前上传至本仓库😂。
+## 工作简介
+### ASQP任务
+
+ASQP (aspect sentiment quad prediction) 任务是 ABSA (aspect-based sentiment analysis) 中最具代表性、最有挑战性的任务，旨在以四元组的形式从评论文本中识别用户方面级别的情感和观点。一个四元组包含以下四个元素：
+- aspect term: 方面项，也称评价对象 (opinion target)，是指文本中被评价的实体；
+- aspect category: 方面类别，是预定义的类别，反映了被评价的观点目标的具体方面和维度；
+- opinion term: 观点项，是表达情感和观点的词或者短语；
+- sentiment polarity: 情感倾向，类别空间为`{POS, NEG, NEU}`。
+
+比如给定评论“_the food is great and reasonably priced_”，ASQP任务的输出应为{(_food_, food\_qulaity,_great_,positive), (_food_, food\_prices,_reasonably priced_,positive}。
+
+### 本文的动机和方法
+
+ASQP任务的关键挑战是标记数据的不足，这限制了现有模型的性能。许多研究者使用数据增强方法来缓解这个问题。然而，数据增强方法的一个显著问题是会不可避免地引入文本和标签不一致的样本，这反而会损害模型的学习。
+
+<div align="center"> <img src="https://github.com/HITSZ-HLT/ST-w-Scorer-ABSA/assets/9134454/b133ab76-9a63-4ce0-9de4-861f4804bc21" alt="打分器" width="50%" /></div>
+
+为了减少不一致的样本，我们为数据增强方法引入了一个伪标签打分器。如上图所示，该打分器旨在评估文本和伪标签之间的一致性。如果我们有一个足够健壮的打分器，我们就可以将所有不一致的样本过滤掉，因而极大地提高数据增强的有效性。
+
+我们从数据和模型架构两个角度来增强打分器的有效性和可靠性：
+- 我们构建了一个人类标注的比较数据集。具体来说，我们首先使用现有的标记数据训练一个ASQP模型，然后使用该模型为无标注数据生成多个伪标签，接下来让标注者从中选择最适合的伪标签作为正标签，并将其他标签作为负标签。此外，我们还探索了使用大语言模型代替人类标注者的可能性。
+- 受到最近偏好优化工作的启发，我们将生成模型为伪标签赋予的条件似然作为对其质量的打分。和前人的方法相比，该方法可以逐token地检查伪标签的合理性，因而提供一个更加全面且有效的打分。
+
+### 实验结果
+
+本方法的主要实验结果如下表，详细的分析见论文。
+
+<div align="center"> <img src="https://github.com/HITSZ-HLT/ST-w-Scorer-ABSA/assets/9134454/d7df2c87-6701-4897-b9a2-b66e88fcc1ec" alt="Result" width="80%" /></div>
+
+## 运行代码
+
+### 环境配置
+
+- lightning==2.1.3
+- numpy==2.0.0
+- scikit_learn==1.5.0
+- spacy==3.7.4
+- torch==2.1.1+cu118
+- tqdm==4.66.2
+- transformers==4.36.2
+
+
+### 代码结构
+### 运行代码
