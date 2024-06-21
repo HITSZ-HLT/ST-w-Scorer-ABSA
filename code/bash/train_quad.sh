@@ -23,7 +23,7 @@ fi
 
 
 if [ -z "${subname}" ]; then
-    subname="test"
+    subname="quad"
 fi
 
 
@@ -33,7 +33,7 @@ fi
 
 
 if [ -z "${model_name_or_path}" ]; then
-    model_name_or_path="/data/zhangyice/2023/pretrained_models/t5-base"
+    model_name_or_path="t5-base"
 fi
 
 
@@ -71,7 +71,7 @@ max_epochs=20
 data_dir="data/t5/"
 output_dir="../output/quad/"
 
-echo "python train_quad.py fit: dataset ${dataset}, seed ${seed}"
+echo "python train_quad.py fit: dataset ${dataset}, seed ${seed}, filter_setting ${filter_setting}, self_training_data_dir ${self_training_data_dir}"
 
 CUDA_VISIBLE_DEVICES=${CUDA_IDS} python train_quad.py fit \
   --seed_everything ${seed} \
