@@ -1,5 +1,3 @@
-# bash/pseudo_labeling.sh -d asqp/rest16 -c 3 -b test
-
 while getopts ':d:c:b:' opt
 do
     case $opt in
@@ -19,7 +17,7 @@ fi
 
 
 if [ -z "${subname}" ]; then
-    subname="test"
+    subname="quad"
 fi
 
 
