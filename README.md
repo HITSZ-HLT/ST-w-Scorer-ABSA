@@ -49,6 +49,50 @@ ASQP任务的关键挑战是标记数据的不足，这限制了现有模型的�
 - tqdm==4.66.2
 - transformers==4.36.2
 
-
 ### 代码结构
+
+```
+├── data
+│   ├── comp
+│   │   ├── acos
+│   │   │   ├── laptop16
+│   │   │   └── rest16
+│   │   └── asqp
+│   │       ├── rest15
+│   │       └── rest16
+│   ├── raw
+│   │   ├── laptop
+│   │   └── yelp
+│   └── t5
+│       ├── acos
+│       │   ├── laptop16
+│       │   └── rest16
+│       └── asqp
+│           ├── rest15
+│           └── rest16
+├── bash
+│   ├── do_filtering.sh
+│   ├── do_reranking.sh
+│   ├── pseudo_labeling.sh
+│   ├── train_quad_batch_parallel.sh
+│   ├── train_quad.sh
+│   └── train_scorer.sh
+├── read_quad_result.py
+├── train_quad.py
+├── train_scorer.py
+└── utils
+    ├── __init__.py
+    ├── loss.py
+    ├── quad.py
+    └── quad_result.py
+
+```
 ### 运行代码
+
+在`code`目录下
+- 运行 `chmod +x bash/*`。
+- 训练初始模型 `bash/train_quad.sh -c 0 -d acos/rest16 -b quad -s 42`。
+- 伪标注 `bash/pseudo_labeling.sh -c 0 -d acos/rest16 -b quad`。
+- 训练打分器 `bash/train_scorer.sh -c 0 -d acos/rest16 -b scorer -s 42 -l 20 -t 01234+ -a 1`。
+- 过滤伪标注数据 `bash/do_filtering.sh -c 0 -d acos/rest16 -b scorer。
+- 重排序 `bash/do_reranking.sh -c 0 -d acos/rest16 -b scorer -q quad -a 2024-6-21`
