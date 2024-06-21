@@ -18,14 +18,6 @@ do
     esac
 done
 
-# suggested hparams
-# acos_rest16   -j list -l 20 -t 01234+ -a 1
-#               -j list -l 15 -t 01234+ -a 1 -k 1800
-# acos_laptop16 -j list -l 12 -t 01234+ -a 1
-#               -j list -l 6 -t 01234+ -a 0.5 -k 1600
-# asqp_rest15   -j list -l 6 -t 01234+ -a 0.5 -k 2500
-# asqp_rest16   -j list -l 8 -t 01234+ -a 0.5 -k 2500
-
 
 if [ -z "${CUDA_IDS}" ]; then
     CUDA_IDS=0
@@ -95,7 +87,7 @@ max_seq_length=100
 
 eval_batch_size=64
 max_epochs=10
-
+use_ai_preference=True
 
 data_dir="data/t5/"
 preference_data_dir="data/comp/"
@@ -122,6 +114,7 @@ CUDA_VISIBLE_DEVICES=${CUDA_IDS} python train_scorer.py fit \
   --data.eval_batch_size ${eval_batch_size} \
   --data.setting "${setting}" \
   --data.k ${k} \
+  --data.use_ai_preference ${use_ai_preference} \
   --model.dataset ${dataset} \
   --model.seed ${seed} \
   --model.model_name_or_path "${model_name_or_path}" \
@@ -135,22 +128,3 @@ CUDA_VISIBLE_DEVICES=${CUDA_IDS} python train_scorer.py fit \
   --model.alpha ${alpha} \
   --model.setting ${setting} \
   --model.k ${k}
-
-echo "${output_dir}model/dataset=${dataset},b=${subname},seed=${seed}"
-
-CUDA_VISIBLE_DEVICES=${CUDA_IDS} python train_scorer.py test \
-  --seed_everything ${seed} \
-  --trainer.devices=1 \
-  --trainer.accelerator=gpu \
-  --trainer.precision=${precision} \
-  --data.model_name_or_path "${output_dir}model/dataset=${dataset},b=${subname},seed=${seed}" \
-  --data.max_seq_length ${max_seq_length} \
-  --data.data_dir "${data_dir}" \
-  --data.dataset ${dataset} \
-  --data.preference_data_dir ${preference_data_dir} \
-  --data.eval_batch_size ${eval_batch_size} \
-  --model.dataset ${dataset} \
-  --model.seed ${seed} \
-  --model.model_name_or_path "${output_dir}model/dataset=${dataset},b=${subname},seed=${seed}" \
-  --model.output_dir "${output_dir}" \
-  --model.subname ${subname}
