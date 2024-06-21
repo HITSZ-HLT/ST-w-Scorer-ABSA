@@ -111,6 +111,8 @@ class DataModule(pl.LightningDataModule):
         if k > 0:
             random.seed(self.seed)
             self_training_data = random.sample(self_training_data, k=k)
+            mean_reward = sum(example['reward'][0] for example in self_training_data) / len(self_training_data)
+            print(f'mean_reward: {mean_reward}')
             self.raw_datasets['train'] += self_training_data
 
     def load_unlabeled_dataset(self, max_example_num=1_000_000):
@@ -277,13 +279,6 @@ class LightningModule(pl.LightningModule):
 
         self.model = T5ForConditionalGeneration.from_pretrained(self.model_name_or_path)
         
-        # from fastT5 import export_and_get_onnx_model
-        # self.model = export_and_get_onnx_model(self.model_name_or_path, quantized=False)
-
-        # https://huggingface.co/docs/transformers/main/llm_optims?static-kv=generation_config
-        # self.model.generation_config.cache_implementation = 'static'
-        # self.model = torch.compile(self.model, mode='reduce-overhead', fullgraph=True)
-
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_name_or_path, use_fast=True)
 
         print('---------------------------------------------')
@@ -313,17 +308,20 @@ class LightningModule(pl.LightningModule):
         self.log('train_loss', loss, prog_bar=True)
         return loss
 
-    def eval_step(self, batch, batch_idx):
+    def eval_step(self, batch, batch_idx, num_beams=1):
         generated_ids = self.model.generate(
             batch['input_ids'],
             attention_mask=batch['attention_mask'],
             max_length=100,
-            num_beams=1,
-            num_return_sequences=1,
+            num_beams=num_beams,
+            num_return_sequences=num_beams,
         )
         generateds = self.tokenizer.batch_decode(
             generated_ids, skip_special_tokens=True
         )
+        if num_beams > 1:
+            generateds = [generateds[i:i+num_beams] for i in range(0, len(generateds), num_beams)]
+
         return {
             'examples': batch['examples'],
             'predictions': generateds
@@ -350,7 +348,7 @@ class LightningModule(pl.LightningModule):
     #     self.save_model()
 
     def test_step(self, batch, batch_idx):
-        output = self.eval_step(batch, batch_idx)
+        output = self.eval_step(batch, batch_idx, num_beams=4)
         self.test_step_outputs.append(output)
 
     def on_test_epoch_end(self):
