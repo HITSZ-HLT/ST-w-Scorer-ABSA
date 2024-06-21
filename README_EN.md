@@ -19,7 +19,7 @@ The ASQP (Aspect Sentiment Quad Prediction) task is the most representative and 
 
 For example, given the review "_the food is great and reasonably priced_", the output of the ASQP task should be {(_food_, food_quality, _great_, positive), (_food_, food_prices, _reasonably priced_, positive)}.
 
-### Motivation and Methodology of the Study
+### Motivation and Methodology
 
 The key challenge in the ASQP (Aspect Sentiment Quad Prediction) task is the scarcity of labeled data, which limits the performance of existing models. Many researchers have used data augmentation techniques to mitigate this issue. However, a significant problem with data augmentation methods is that they inevitably introduce samples where the text and labels are inconsistent, which can hinder the learning process of the model.
 
