@@ -18,7 +18,7 @@ from transformers import T5ForConditionalGeneration
 from transformers import AutoConfig, AutoTokenizer
 
 from utils import params_count, load_json, tokenize, load_line_json, append_new_line, save_json, auto_init
-from utils.quad import make_quads_seq, get_quad_aspect_opinion_num
+from utils.quad import make_quads_seq, get_quad_aspect_opinion_num, parse_quads_seq
 
 from sklearn.metrics import f1_score, accuracy_score
 
@@ -72,6 +72,7 @@ class DataModule(pl.LightningDataModule):
         setting: str = '01234+',
         k: int = 1000,
         use_ai_preference: bool = True,
+        mode: str = 'train_test',
     ):
 
         super().__init__()
@@ -164,8 +165,41 @@ class DataModule(pl.LightningDataModule):
         print(f' - candidate {a0:03d}, {a1:03d}, {a2:03d}, {a3:03d}, total {a0+a1+a2+a3:03d} | correct {a4:03d} | unrelated {a5:03d} | no-sentiment {a6:03d} | 7 {a7:03d} | 8 {a8:03d}')
         print(f' - candidate {a0/su*100:02.0f}%, {a1/su*100:02.0f}%, {a2/su*100:02.0f}%, {a3/su*100:02.0f}%, total {(a0+a1+a2+a3)/su*100:02.0f}% | correct {a4/su*100:02.0f}% | unrelated {a5/su*100:02.0f}% | no-sentiment {a6/su*100:02.0f}% | 7 {a7/su*100:02.0f}% | 8 {a8/su*100:02.0f}%')
 
+    def load_filter_dataset(self):
+        data_dir = self.data_dir
+        try:
+            examples = load_json(data_dir)
+        except:
+            examples = list(load_line_json(data_dir))
+            if len(examples) > 110000:
+                examples = examples[10_000: 110_000]
+
+        self.raw_datasets = {'predict': examples}
+        print('-----------data statistic-------------')
+        print('predict:', len(self.raw_datasets['predict']))
+        print('--------------------------------------')
+
+    def load_rerank_dataset(self):
+        data_dir = self.data_dir
+        examples = list(load_json(data_dir)['data'].values())
+
+        for example in examples:
+            example['quad_preds'] = example['prediction']
+
+        self.raw_datasets = {'predict': examples}
+        print('-----------data statistic-------------')
+        print('predict:', len(self.raw_datasets['predict']))
+        print('--------------------------------------')        
+
     def prepare_data(self):
-        self.load_dataset()
+        if self.mode == 'train_test':
+            self.load_dataset()
+
+        elif self.mode == 'filter':
+            self.load_filter_dataset()
+
+        elif self.mode == 'rerank':
+            self.load_rerank_dataset()
 
     def get_dataloader(self, mode, batch_size, shuffle, drop_last=False):
         dataloader = DataLoader(
@@ -178,7 +212,7 @@ class DataModule(pl.LightningDataModule):
             collate_fn=DataCollator(
                 tokenizer=self.tokenizer, 
                 max_seq_length=self.max_seq_length,
-                mode=mode
+                mode=self.mode,
             ),
             drop_last=drop_last,
         )
@@ -195,6 +229,9 @@ class DataModule(pl.LightningDataModule):
     def test_dataloader(self):
         return self.get_dataloader("test", self.eval_batch_size, shuffle=False, drop_last=False)
 
+    def predict_dataloader(self):
+        return self.get_dataloader("predict", self.eval_batch_size, shuffle=False, drop_last=False)
+
 
 
 class DataCollator:
@@ -206,8 +243,8 @@ class DataCollator:
         return tokenize(self.tokenizer, text, max_seq_length)
     
     def __call__(self, examples):
-        if self.mode == 'predict':
-            return self.predict_call(examples)
+        if self.mode in ('filter', 'rerank'):
+            return self.filter_rerank_call(examples)
 
         else:
             return self.default_call(examples)
@@ -275,14 +312,48 @@ class DataCollator:
                 perfered = -100
 
         else:
-            raise NotImplementedError
-            # perfered = 0
+            perfered = None
         
         example['candidates'] = candidates
         return sentences, candidates, perfered
 
-    def predict_call(self, examples):
-        pass
+    def filter_rerank_call(self, examples):
+        sentences = []
+        quad_seqs = []
+
+        for example in examples:
+            _sentences, candidates, perfered = self.get_sentence_candidates(example)
+
+            for sentence, candidate in zip(_sentences, candidates):
+                sentences.append(sentence)
+                quad_seqs.append(candidate)
+
+        batch_encodings = self.tok(sentences, -1)
+        input_ids = batch_encodings['input_ids']
+        attention_mask = batch_encodings['attention_mask']        
+
+        batch_encodings = self.tok(quad_seqs, -1)
+        quad_labels = batch_encodings['input_ids']
+        quad_labels = torch.tensor([
+            [(l if l != self.tokenizer.pad_token_id else -100)
+             for l in label]
+            for label in quad_labels
+        ])
+
+        if self.max_seq_length > 0:
+            input_ids = input_ids[:, :self.max_seq_length]
+            attention_mask = attention_mask[:, :self.max_seq_length]
+            if quad_labels is not None:
+                quad_labels = quad_labels[:, :self.max_seq_length]
+
+        return {
+            'input_ids': input_ids,
+            'attention_mask': attention_mask,
+            'quad_labels':  quad_labels,
+            'examples': examples,
+        }
+
+        
 
 
 class LightningModule(pl.LightningModule):
@@ -296,6 +367,7 @@ class LightningModule(pl.LightningModule):
         seed: int=42,
         dataset: str='',
         output_dir: str='',
+        quad_subname: str='',
         subname: str='',
         model_name_or_path: str='',
         objective: str='list',
@@ -449,24 +521,22 @@ class LightningModule(pl.LightningModule):
         }))
 
     def test_step(self, batch, batch_idx):
-        output = self.eval_step(batch, batch_idx)
-        # TODO: save
-        self.test_step_outputs.append(output)
+        raise NotImplementedError
 
     def on_test_epoch_end(self):
-        # TODO:
-        self.test_step_outputs.clear()
+        raise NotImplementedError
 
     def predict_step(self, batch, batch_idx, dataloader_idx=0):
         with torch.backends.cuda.sdp_kernel(enable_flash=True, enable_math=False, enable_mem_efficient=False):
-
-            pass
-
+            scores = self.model.get_rewards(
+                input_ids=batch['input_ids'],
+                attention_mask=batch['attention_mask'],
+                decoder_labels=batch['quad_labels'],
+            )
+            
         return {
-            'examples': examples,
-            'predictions': generated_beams,
-            'min_con': min_con,
-            'avg_con': avg_con,
+            'scores': scores.view(-1, 4),
+            'examples': batch['examples'],
         }
 
     def configure_optimizers(self):
@@ -503,36 +573,176 @@ class CustomWriter(BasePredictionWriter):
         print()
 
     def on_test_end(self, trainer, pl_module):
-        # TODO
-        pass
+        raise NotImplementedError
 
     def write_on_epoch_end(self, trainer, pl_module, predictions, batch_indices):
 
         output_examples = []
-        N = 0
         for output in tqdm(predictions):
             examples = output['examples']
-            predictions = output['predictions']
-            min_confidence = output['min_con']
-            avg_confidence = output['avg_con']
+            scores = output['scores']
 
-            for example, prediction, min_con, avg_con in zip(examples, predictions, min_confidence, avg_confidence):
+            for example, four_score in zip(examples, scores):
+                example['reward'] = four_score.tolist()
+                output_examples.append(example)
 
-                    output_examples.append({
-                        'ID': example['ID'],
-                        'sentence': example['sentence'],
-                        'quad_preds': prediction,
-                        'quads_seq' : example.get('quads_seq'),
-                        'min_con' : float(min_con),
-                        'avg_con' : float(avg_con),
-                        'full_review': example['full_review'],
-                    })
+        if 'quads' in output_examples[0] and output_examples[0]['quads'] is not None:
+            detailed_metrics = self.cal_metric(output_examples)
+            self.save_metric(detailed_metrics)
 
-        print(f'save {len(output_examples)} to', self.output_dir)
-        if len(output_examples) > 10_000:
-            save_line_json(output_examples, self.output_dir)
+            from datetime import datetime
+
+            now = datetime.now()
+            now = now.strftime("%Y-%m-%d")
+
+            dataset = self.name_space.model.dataset
+            seed = self.name_space.model.seed
+            subname = self.name_space.model.subname
+            quad_subname = self.name_space.model.quad_subname
+
+            output_dir = os.path.join(self.output_dir, now, f'{dataset}_{quad_subname}_{seed}_{subname}.json')
+            print(f'save {len(output_examples)} to', output_dir)
+            save_json(output_examples, output_dir)
+
         else:
-            save_json(output_examples, self.output_dir)
+            output_dir = os.path.join(self.output_dir, f'{self.name_space.model.dataset}.json')
+            print(f'save {len(output_examples)} to', output_dir)
+            save_json(output_examples, output_dir)
+
+    def cal_metric(self, output_examples):
+        n_precision = 0
+        prec_hit    = 0
+        n_recall    = 0
+        recall_hit  = 0
+
+        best_n_precision = 0
+        best_prec_hit    = 0
+        best_n_recall    = 0
+        best_recall_hit  = 0
+
+        rerank_n_precision = 0
+        rerank_prec_hit    = 0
+        rerank_n_recall    = 0
+        rerank_recall_hit  = 0
+
+        rerank_beam_indices = [0, 0, 0, 0, 0]
+        best_beam_indices = [0, 0, 0, 0, 0]
+        for example in output_examples:
+            preds = example['quad_preds']
+            true  = example['quads']
+
+            _, np, ph, nr, rh = self._cal_metric(preds[0], true, example)
+            n_precision += np
+            prec_hit    += ph
+            n_recall    += nr
+            recall_hit  += rh
+
+            ms = [self._cal_metric(pred, true, example)+(i, ) for i, pred in enumerate(preds)]
+
+            r, rerank_perfered = max([(r,i) for i, r in enumerate(example['reward'])])    
+            _, np, ph, nr, rh, _ = ms[rerank_perfered]
+            rerank_beam_indices[rerank_perfered] += 1
+            rerank_n_precision += np
+            rerank_prec_hit    += ph
+            rerank_n_recall    += nr
+            rerank_recall_hit  += rh
+
+
+            _, np, ph, nr, rh, _, i = max([self._cal_metric(pred, true, example)+(-i, i) for i, pred in enumerate(preds)])
+            best_beam_indices[i]  += 1
+            example['best'] = i
+            best_n_precision += np
+            best_prec_hit    += ph
+            best_n_recall    += nr
+            best_recall_hit  += rh
+
+        precision, recall, f1 = cal_f1(prec_hit, n_precision, recall_hit, n_recall)
+        rerank_precision, rerank_recall, rerank_f1 = cal_f1(rerank_prec_hit, rerank_n_precision, rerank_recall_hit, rerank_n_recall)
+        best_precision, best_recall, best_f1 = cal_f1(best_prec_hit, best_n_precision, best_recall_hit, best_n_recall)
+        
+        detailed_metrics = {
+            'precision': precision,
+            'recall': recall,
+            'f1': f1,
+            'rerank_precision': rerank_precision,
+            'rerank_recall': rerank_recall,
+            'rerank_f1': rerank_f1,
+            'best_precision': best_precision,
+            'best_recall': best_recall,
+            'best_f1': best_f1
+        }
+        for metric_names in (('precision', 'recall', 'f1'), ('rerank_precision', 'rerank_recall', 'rerank_f1'), ('best_precision', 'best_recall', 'best_f1')):
+            for metric_name in metric_names:
+                value = detailed_metrics[metric_name] if metric_name in detailed_metrics else 0
+                print(f'{metric_name}: {value:.4f}', end=' | ')
+            print()
+
+        print('rerank_beam_indices', rerank_beam_indices)
+        print('best_beam_indices', best_beam_indices)
+
+        return detailed_metrics    
+
+    def _cal_metric(self, pred, true, example):
+        split = lambda string: [s.strip() for s in string.split(';')]
+
+        pred = parse_quads_seq(pred, example)[0]
+        # true = parse_quads_seq(true, example)[0]
+
+        n_precision = len(pred)
+        prec_hit    = 0
+        n_recall    = len(true)
+        recall_hit  = 0
+
+        for p in pred:
+            if p in true:
+                prec_hit += 1
+
+        for t in true:
+            if t in pred:
+                recall_hit += 1
+
+        precision, recall, f1 = cal_f1(prec_hit, n_precision, recall_hit, n_recall)
+
+        return (f1, -n_precision), n_precision, prec_hit, n_recall, recall_hit
+
+    def save_metric(self, detailed_metrics):
+        from datetime import datetime
+
+        now = datetime.now()
+        now = now.strftime("%Y-%m-%d")
+
+        performance_file_name = os.path.join(self.output_dir, now, 'performance.txt')
+        print('save performace to', performance_file_name)
+        append_new_line(performance_file_name, json.dumps({
+            'time': time.strftime('%Y-%m-%d %H_%M_%S', time.localtime()),
+            'model_name_or_path': None,
+            'subname': self.name_space.model.quad_subname,
+            'quad_subname': self.name_space.model.quad_subname,
+            'scorer_subname': self.name_space.model.subname,
+            'dataset': self.name_space.model.dataset,
+            'seed': self.name_space.model.seed,
+            'lr': self.name_space.model.learning_rate,
+            'metric': {
+                'before_precision': detailed_metrics['precision'],
+                'before_recall': detailed_metrics['recall'],
+                'before_f1': detailed_metrics['f1'],
+                'precision': detailed_metrics['rerank_precision'],
+                'recall': detailed_metrics['rerank_recall'],
+                'f1': detailed_metrics['rerank_f1'],
+                'best_precision': detailed_metrics['best_precision'],
+                'best_recall': detailed_metrics['best_recall'],
+                'best_f1': detailed_metrics['best_f1']
+            }
+        }))
+
+
+
+def cal_f1(prec_hit, n_precision, recall_hit, n_recall):
+    precision = prec_hit / n_precision if n_precision else 1
+    recall    = recall_hit / n_recall if n_recall else 1
+    f1 = 2 * precision * recall / (precision + recall) if precision + recall else 0
+    return precision, recall, f1
+
 
 
 
