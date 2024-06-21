@@ -107,7 +107,7 @@ ASQP任务的关键挑战是标记数据的不足，这限制了现有模型的�
 
 ## 引用我们
 
-    @inproceedings{zhang-etal-2023-spt-absa,  
+    @inproceedings{zhang-etal-2024-self-training-pseudo-label,  
         title = "Self-Training with Pseudo-Label Scorer for Aspect Sentiment Quad Prediction",  
         author = "Zhang, Yice  and  
           Zeng, Jie  and  
