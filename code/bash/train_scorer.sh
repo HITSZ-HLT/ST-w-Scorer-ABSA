@@ -35,7 +35,7 @@ fi
 
 
 if [ -z "${model_name_or_path}" ]; then
-    model_name_or_path="/data/zhangyice/2023/pretrained_models/t5-large"
+    model_name_or_path="t5-large"
 fi
 
 
