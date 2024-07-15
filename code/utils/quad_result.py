@@ -63,8 +63,9 @@ class Result:
         for output in outputs:
             examples = output['examples']
             predictions = output['predictions']
+            candidates = output['candidates']
 
-            for example, prediction in zip(examples, predictions):
+            for example, prediction, candidate in zip(examples, predictions, candidates):
                 ID = example.pop('ID')
                 quads = example.pop('quads') if 'quads' in example else parse_quads_seq(example.pop('quads_seq'))[0]
 
@@ -73,7 +74,7 @@ class Result:
                     'sentence': example['sentence'],
                     'quads': quads,
                     'quad_preds' : parse_quads_seq(prediction, example)[0],
-                    **example
+                    'candidates': candidate,
                 }
 
         return cls(data)
