@@ -319,12 +319,15 @@ class LightningModule(pl.LightningModule):
         generateds = self.tokenizer.batch_decode(
             generated_ids, skip_special_tokens=True
         )
+        candidates = generateds
         if num_beams > 1:
             generateds = [generateds[i:i+num_beams] for i in range(0, len(generateds), num_beams)]
+            candidates = [generateds[i] for i in range(0, len(generateds), num_beams)]
 
         return {
             'examples': batch['examples'],
-            'predictions': generateds
+            'predictions': generateds,
+            'candidates': candidates
         }
 
     def validation_step(self, batch, batch_idx):
