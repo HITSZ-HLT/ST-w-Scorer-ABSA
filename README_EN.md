@@ -95,7 +95,7 @@ In the `code` directory:
 - Filter the pseudo-labeled data `bash/do_filtering.sh -c 0 -d acos/rest16 -b scorer`.
 
 This will produce the filtered pseudo-labeled data, which can then be used to train the ASQP model:
-- Train the ASQP model with pseudo-labeled data `bash/train_quad.sh -c 0 -d acos/rest16 -b 10-40_10000 -f 10-40_10000 -t ../output/filter/asqp/rest15.json`.
+- Train the ASQP model with pseudo-labeled data `bash/train_quad.sh -c 0 -d acos/rest16 -b 10-40_10000 -f 10-40_10000 -t ../output/filter/acos/rest16.json`.
 - Re-rank with `bash/do_reranking.sh -c 0 -d acos/rest16 -b scorer -q 10-40_10000 -a 2024-6-21`.
 
 Note:
