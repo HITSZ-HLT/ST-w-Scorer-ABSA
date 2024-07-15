@@ -321,8 +321,8 @@ class LightningModule(pl.LightningModule):
         )
         candidates = generateds
         if num_beams > 1:
-            generateds = [generateds[i:i+num_beams] for i in range(0, len(generateds), num_beams)]
             candidates = [generateds[i] for i in range(0, len(generateds), num_beams)]
+            generateds = [generateds[i:i+num_beams] for i in range(0, len(generateds), num_beams)]
 
         return {
             'examples': batch['examples'],
