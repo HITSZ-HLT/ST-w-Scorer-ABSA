@@ -97,7 +97,7 @@ ASQP任务的关键挑战是标记数据的不足，这限制了现有模型的�
 - 过滤伪标注数据 `bash/do_filtering.sh -c 0 -d acos/rest16 -b scorer。`
 
 这样就可以得到过滤后的伪标注数据了，接下来利用这些数据训练ASQP模型
-- 结合伪标注数据训练ASQP模型 `bash/train_quad.sh -c 0 -d acos/rest16 -b 10-40_10000 -f 10-40_10000 -t ../output/filter/asqp/rest15.json`。
+- 结合伪标注数据训练ASQP模型 `bash/train_quad.sh -c 0 -d acos/rest16 -b 10-40_10000 -f 10-40_10000 -t ../output/filter/acos/rest16.json`。
 - 重排序 `bash/do_reranking.sh -c 0 -d acos/rest16 -b scorer -q 10-40_10000 -a 2024-6-21`。
 
 注意
