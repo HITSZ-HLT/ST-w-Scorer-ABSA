@@ -101,6 +101,7 @@ ASQP任务的关键挑战是标记数据的不足，这限制了现有模型的�
 - 重排序 `bash/do_reranking.sh -c 0 -d acos/rest16 -b scorer -q 10-40_10000 -a 2024-6-21`。
 
 注意
+- 如果服务器无法访问huggingface，可以事先将模型权重下载到服务器上，然后将预训练模型的路径设置为模型权重的路径。
 - 打分器对最终的性能有重要的影响，调整其训练参数（lr, alpha, batch\_size）是必要的。
 - 伪标注之前，需要先解压`/code/data/raw`下的文件。
 - 已经过滤好的伪标注数据在`/code/data/self\_training`中。
