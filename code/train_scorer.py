@@ -184,7 +184,7 @@ class DataModule(pl.LightningDataModule):
         examples = list(load_json(data_dir)['data'].values())
 
         for example in examples:
-            example['quad_preds'] = example['prediction']
+            example['quad_preds'] = example['candidates']
 
         self.raw_datasets = {'predict': examples}
         print('-----------data statistic-------------')
